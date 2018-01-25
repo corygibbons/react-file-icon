@@ -1,0 +1,34 @@
+{
+  "name": "react-file-icons",
+  "version": "1.0.0",
+  "description": "React component to render svg file icons",
+  "author": "Pixel Union",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "rollup -c",
+    "start": "npm run styleguidist",
+    "styleguidist": "styleguidist server",
+    "styleguidist:build": "styleguidist build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["react", "component", "svg", "icons", "file types"],
+  "license": "MIT",
+  "dependencies": {
+    "iromi": "^1.0.1",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "tinycolor2": "^1.4.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "react-styleguidist": "^6.2.0",
+    "rollup": "^0.54.1",
+    "rollup-plugin-babel": "^3.0.3",
+    "webpack": "^3.10.0",
+    "webpack-blocks": "^1.0.0-rc.2"
+  }
+}
