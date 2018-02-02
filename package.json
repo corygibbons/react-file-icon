@@ -11,10 +11,17 @@
     "styleguidist:build": "styleguidist build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["react", "component", "svg", "icons", "file types"],
+  "keywords": [
+    "react",
+    "component",
+    "svg",
+    "icons",
+    "file types"
+  ],
   "license": "MIT",
   "dependencies": {
     "iromi": "^1.0.1",
+    "lodash.uniqueid": "^4.0.1",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",

@@ -1,78 +1,74 @@
+Arrangements
+
 ```js
-<div style={{ width: '60px' }}>
-  <FileIcon />
-</div>
+<div style={{'-webkit-font-smoothing': 'antialiased' }}>
+  <FileIcon size="48" fold={false} />
+  <FileIcon size="48" />
+  <FileIcon size="48" type="image" />
+  <FileIcon size="48" extension="jpg" />
+  <FileIcon size="48" type="image" extension="jpg" />
+</div>;
 ```
+
+Sizing
+
+```js
+const icons = [72, 60, 48, 36, 24, 16].map(size => {
+  return (
+    <FileIcon size={size} type="code" extension="jsx" />
+  );
+});
+<div style={{'-webkit-font-smoothing': 'antialiased' }}>{icons}</div>;
+```
+
+Colors
 
 ```js
 const icons = [
-  '#E7E6F5',
+  'mistyrose',
   'papayawhip',
+  'cornsilk',
   'beige',
-  'lightpink',
-  'lightsteelblue'
+  'aliceblue',
+  'lavender'
 ].map(color => {
   return (
-    <div style={{ width: '60px', '-webkit-font-smoothing': 'antialiased' }}>
-      <FileIcon ext="exe" iconColor={color} type="image" />
-    </div>
+    <FileIcon size="48" extension="png" color={color} type="image" />
   );
 });
-<div style={{ display: 'flex' }}>{icons}</div>;
+<div style={{'-webkit-font-smoothing': 'antialiased' }}>{icons}</div>;
+```
+
+Label colors
+
+```js
+const icons = [
+  'tomato',
+  'orange',
+  'gold',
+  'lightgreen',
+  'deepskyblue',
+  'orchid'
+].map(color => {
+  return (
+    <FileIcon size="48" extension="mp3" labelColor={color} />
+  );
+});
+<div style={{'-webkit-font-smoothing': 'antialiased' }}>{icons}</div>;
 ```
 
 Border radius
 
 ```js
-const icons = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map(radius => {
+const icons = [0, 2, 4, 6, 8, 10].map(radius => {
   return (
-    <div style={{ width: '60px', '-webkit-font-smoothing': 'antialiased' }}>
-      <FileIcon
-        foldColor="#C6C5D4"
-        gradientColor="#F7F7FC"
-        iconColor="#E7E6F5"
-        labelColor="#FF834A"
-        radius={radius}
-      />
-    </div>
+    <FileIcon size="48" radius={radius} />
   );
 });
-<div style={{ display: 'flex' }}>{icons}</div>;
+<div style={{ '-webkit-font-smoothing': 'antialiased' }}>{icons}</div>;
 ```
 
-Label colors:
-
-```js
-const icons = [
-  '#193D99',
-  '#255BC1',
-  '#38A7B2',
-  '#53D4DB',
-  '#F2C83D',
-  '#F7DC6D',
-  '#FF834A',
-  '#FFB07A',
-  '#ED5A8B',
-  '#F8B4D0',
-  '#A656BF',
-  '#C685D6'
-].map(color => {
-  return (
-    <div style={{ width: '60px', '-webkit-font-smoothing': 'antialiased' }}>
-      <FileIcon
-        ext="exe"
-        foldColor="#C6C5D4"
-        gradientColor="#F7F7FC"
-        iconColor="#E7E6F5"
-        labelColor={color}
-      />
-    </div>
-  );
-});
-<div style={{ display: 'flex' }}>{icons}</div>;
-```
-
-File type glyphs:
+File type glyphs
 
 ```js
 const icons = [
@@ -93,54 +89,24 @@ const icons = [
   'video'
 ].map(type => {
   return (
-    <div style={{ width: '60px', '-webkit-font-smoothing': 'antialiased' }}>
-      <FileIcon
-        ext="exe"
-        foldColor="#C6C5D4"
-        glyphColor="#9F9CAD"
-        gradientColor="#F7F7FC"
-        iconColor="#E7E6F5"
-        labelColor="#255BC1"
-        type={type}
-      />
-    </div>
+    <FileIcon size="48" type={type} />
   );
 });
-<div style={{ display: 'flex' }}>{icons}</div>;
+<div style={{'-webkit-font-smoothing': 'antialiased' }}>{icons}</div>;
 ```
 
-File type glyphs:
+Examples
 
 ```js
-const icons = [
-  '3d',
-  'acrobat',
-  'audio',
-  'binary',
-  'code',
-  'compressed',
-  'document',
-  'drive',
-  'font',
-  'image',
-  'presentation',
-  'settings',
-  'spreadsheet',
-  'vector',
-  'video'
-].map(type => {
-  return (
-    <div style={{ width: '60px', '-webkit-font-smoothing': 'antialiased' }}>
-      <FileIcon
-        foldColor="#C6C5D4"
-        glyphColor="#9F9CAD"
-        gradientColor="#F7F7FC"
-        iconColor="#E7E6F5"
-        labelColor="#255BC1"
-        type={type}
-      />
-    </div>
-  );
-});
-<div style={{ display: 'flex' }}>{icons}</div>;
+<div style={{ 'display': 'block', '-webkit-font-smoothing': 'antialiased' }}>
+  <FileIcon size="48" color="#34364E" gradientOpacity="0" labelColor="#34364E" labelTextColor="#31C5F0" foldColor="#31C5F0" radius="2" extension="psd" />
+  <FileIcon size="48" color="#423325" gradientOpacity="0" labelColor="#423325" labelTextColor="#FF7F18" foldColor="#FF7F18" radius="2" extension="ai" />
+  <FileIcon size="48" color="#4B2B36" gradientOpacity="0" labelColor="#4B2B36" labelTextColor="#FF408C" foldColor="#FF408C" radius="2" extension="indd" />
+  <FileIcon size="48" color="#2C5898" labelColor="#2C5898" type="document" glyphColor="rgba(255,255,255,0.4)" extension="doc" />
+  <FileIcon size="48" color="#1A754C" labelColor="#1A754C" type="spreadsheet" glyphColor="rgba(255,255,255,0.4)" extension="xls" />
+  <FileIcon size="48" color="#D14423" labelColor="#D14423" type="presentation" glyphColor="rgba(255,255,255,0.4)" extension="ppt" />
+  <FileIcon size="48" color="#FF8500" gradientColor="#FFB900" gradientOpacity="1" fold={false} radius="6" type="document" glyphColor="rgba(255,255,255,0.6)" />
+  <FileIcon size="48" color="#11D51D" gradientColor="#82FA6C" gradientOpacity="1" fold={false} radius="6" type="spreadsheet" glyphColor="rgba(255,255,255,0.6)" />
+  <FileIcon size="48" color="#1254F8" gradientColor="#00D2FF" gradientOpacity="1" fold={false} radius="6" type="presentation" glyphColor="rgba(255,255,255,0.6)" />
+</div>
 ```
