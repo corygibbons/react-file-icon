@@ -6,16 +6,16 @@ import uniqueId from 'lodash.uniqueid';
 import glyphs from '../../glyphs';
 
 const propTypes = {
+  /** Color of icon background */
+  color: PropTypes.string,
   /** Text to display in label */
   extension: PropTypes.string,
-  /** Should the corner of the icon be folded */
+  /** Displays the corner fold */
   fold: PropTypes.bool,
-  /** Color of fold */
+  /** Color of the corner fold */
   foldColor: PropTypes.string,
   /** Color of file type icon */
   glyphColor: PropTypes.string,
-  /** Color of icon background */
-  color: PropTypes.string,
   /** Color of page gradient */
   gradientColor: PropTypes.string,
   /** Opacity of page gradient */
@@ -26,11 +26,11 @@ const propTypes = {
   labelTextColor: PropTypes.string,
   /** Style of label text */
   labelTextStyle: PropTypes.object,
-  /** Radius of file icon */
+  /** Corner radius of the file icon */
   radius: PropTypes.number,
   /** Width and height of the file icon */
   size: PropTypes.number,
-  /** Type of icon glyph to display */
+  /** Type of glyph icon to display */
   type: PropTypes.oneOf([
     '3d',
     'acrobat',
@@ -68,13 +68,13 @@ const FOLD = {
 const LABEL_HEIGHT = 14;
 
 export const FileIcon = ({
+  color = 'whitesmoke',
   extension,
   fold = true,
   foldColor,
   glyphColor,
   gradientColor = 'white',
   gradientOpacity = 0.25,
-  color = 'whitesmoke',
   labelColor,
   labelTextColor = 'white',
   labelTextStyle,
