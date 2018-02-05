@@ -7,6 +7,6 @@ module.exports = {
   showUsage: true,
   skipComponentsWithoutExample: true,
   styleguideDir: '../public',
-  title: 'React File Icons',
+  title: 'React File Icon',
   webpackConfig: createConfig([babel()])
 };
