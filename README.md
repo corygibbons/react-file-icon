@@ -1,7 +1,11 @@
-# React File Icons
+![icon](https://cl.ly/0Z2P3Y3D060K/rfi.svg)
+
+# React File Icon
+[![npm version](https://img.shields.io/npm/v/react-file-icon.svg?style=flat-square)](https://www.npmjs.com/package/react-file-icon)
+[![codeship](https://img.shields.io/codeship/39c7ab10-ece5-0135-7954-3244ec35664b/master.svg?style=flat-square)](https://app.codeship.com/projects/270457)
 
 ```js
-import { FileIcon } from 'react-file-icons';
+import FileIcon from 'react-file-icon';
 ```
 
 ## Props
