@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import tinycolor from 'tinycolor2';
 import uniqueId from 'lodash.uniqueid';
 
-import glyphs from '../../glyphs';
+import glyphs from '../glyphs/index';
 
 const propTypes = {
   /** Color of icon background */
@@ -110,17 +110,18 @@ export const FileIcon = ({
             transform={`rotate(-45 0 ${FOLD.HEIGHT})`}
           />
         </clipPath>
-        <linearGradient x1="100%" y1="0%" y2="100%" id={`pageGradient${UNIQUE_ID}`}>
+        <linearGradient
+          x1="100%"
+          y1="0%"
+          y2="100%"
+          id={`pageGradient${UNIQUE_ID}`}
+        >
           <stop
             stopColor={gradientColor}
             stopOpacity={gradientOpacity}
             offset="0%"
           />
-          <stop
-            stopColor={gradientColor}
-            stopOpacity="0"
-            offset="66.67%"
-          />
+          <stop stopColor={gradientColor} stopOpacity="0" offset="66.67%" />
         </linearGradient>
       </defs>
 
@@ -221,12 +222,14 @@ export const FileIcon = ({
 
       {type && (
         <g
-          transform={`translate(0 ${!extension ? 6 : 0})`} fill={
+          transform={`translate(0 ${!extension ? 6 : 0})`}
+          fill={
             glyphColor ||
             tinycolor(color)
               .darken(15)
               .toString()
-            }>
+          }
+        >
           {glyphs[type]}
         </g>
       )}

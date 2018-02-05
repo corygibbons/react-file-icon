@@ -6,6 +6,7 @@ export default {
     file: 'dist/main.js',
     format: 'cjs'
   },
+  external: ['lodash.uniqueid', 'prop-types', 'react', 'tinycolor2'],
   plugins: [
     babel({
       exclude: 'node_modules/**'

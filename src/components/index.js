@@ -1,1 +1,2 @@
-export { default as FileIcon } from './FileIcon/FileIcon';
+import FileIcon from './FileIcon';
+export default FileIcon;
