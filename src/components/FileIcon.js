@@ -202,7 +202,7 @@ export const FileIcon = ({
             <text
               x={ICON.WIDTH / 2}
               y="10"
-              fontFamily="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif"
+              fontFamily="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
               fontSize="9"
               fill={labelTextColor}
               textAnchor="middle"

@@ -1,15 +1,15 @@
 {
   "name": "react-file-icons",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "React component to render svg file icons",
   "author": "Pixel Union",
   "main": "dist/main.js",
   "scripts": {
-    "build": "rollup -c",
+    "build": "rollup -c config/rollup.js",
     "start": "npm run styleguidist",
-    "styleguidist": "styleguidist server",
-    "styleguidist:build": "styleguidist build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "styleguidist": "styleguidist server --config config/styleguidist.js",
+    "styleguidist:build": "styleguidist build --config config/styleguidist.js",
+    "test": "jest --config config/jest.js"
   },
   "keywords": [
     "react",
@@ -20,7 +20,6 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "iromi": "^1.0.1",
     "lodash.uniqueid": "^4.0.1",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
@@ -29,10 +28,15 @@
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
+    "babel-jest": "^22.1.0",
     "babel-plugin-external-helpers": "^6.22.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
+    "component-image": "^1.1.0",
+    "jest": "^22.1.4",
+    "jest-image-snapshot": "^2.3.0",
     "react-styleguidist": "^6.2.0",
+    "react-test-renderer": "^16.2.0",
     "rollup": "^0.54.1",
     "rollup-plugin-babel": "^3.0.3",
     "webpack": "^3.10.0",
