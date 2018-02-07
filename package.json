@@ -11,8 +11,8 @@
     "build": "rollup -c config/rollup.js",
     "prepublish": "npm run build",
     "start": "npm run styleguidist",
-    "styleguidist": "styleguidist server --config config/styleguidist.js",
-    "styleguidist:build": "styleguidist build --config config/styleguidist.js",
+    "styleguidist": "styleguidist server --config config/styleguide/styleguidist.js",
+    "styleguidist:build": "styleguidist build --config config/styleguide/styleguidist.js",
     "test": "jest --config config/jest.js"
   },
   "keywords": [
