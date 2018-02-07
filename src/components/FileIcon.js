@@ -37,6 +37,7 @@ const propTypes = {
     'audio',
     'binary',
     'code',
+    'code2',
     'compressed',
     'document',
     'drive',

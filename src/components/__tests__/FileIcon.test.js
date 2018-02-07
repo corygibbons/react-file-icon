@@ -224,6 +224,7 @@ describe('<FileIcon />', () => {
       'audio',
       'binary',
       'code',
+      'code2',
       'compressed',
       'document',
       'drive',
