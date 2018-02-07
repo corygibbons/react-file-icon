@@ -245,8 +245,8 @@ describe('<FileIcon />', () => {
     const image = await generateImage(component, {
       renderer: ReactDOMServer.renderToStaticMarkup,
       viewport: {
-        width: 700,
-        height: 64
+        width: 600,
+        height: 300
       }
     });
     expect(image).toMatchImageSnapshot();
