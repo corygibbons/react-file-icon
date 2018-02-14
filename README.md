@@ -1,4 +1,4 @@
-![icon](https://cl.ly/0Z2P3Y3D060K/rfi.svg)
+<img alt="Icon Samples" src="http://f.cl.ly/items/2r400P33330H0e3T3A1m/react-file-icons.png" width="290">
 
 # React File Icon
 [![npm version](https://img.shields.io/npm/v/react-file-icon.svg?style=flat-square)](https://www.npmjs.com/package/react-file-icon)
@@ -22,6 +22,7 @@ import FileIcon from 'react-file-icon';
 | `labelColor`      | string | undefined  | Color of label                    |
 | `labelTextColor`  | string | white      | Color of label text               |
 | `labelTextStyle`  | object | undefined  | Style of label text               |
+| `labelUppercase`  | bool   | false      | Displays the label in all caps    |
 | `radius`          | number | 4          | Corner radius of the file icon    |
 | `size`            | number | undefined  | Width and height of the file icon |
 | `type`            | enum   | undefined  | Type of glyph icon to display (One of: 3d, acrobat, audio, binary, code, compressed, document, drive, font, image, presentation, settings, spreadsheet, vector, video) |
