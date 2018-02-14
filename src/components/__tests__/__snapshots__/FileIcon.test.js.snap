@@ -577,7 +577,7 @@ exports[`<FileIcon /> color variations render correctly 1`] = `
             "fontWeight": "bold",
             "pointerEvents": "none",
             "textAlign": "center",
-            "textTransform": "uppercase",
+            "textTransform": "none",
             "userSelect": "none",
           }
         }
@@ -699,7 +699,7 @@ exports[`<FileIcon /> color variations render correctly 1`] = `
             "fontWeight": "bold",
             "pointerEvents": "none",
             "textAlign": "center",
-            "textTransform": "uppercase",
+            "textTransform": "none",
             "userSelect": "none",
           }
         }
@@ -821,7 +821,7 @@ exports[`<FileIcon /> color variations render correctly 1`] = `
             "fontWeight": "bold",
             "pointerEvents": "none",
             "textAlign": "center",
-            "textTransform": "uppercase",
+            "textTransform": "none",
             "userSelect": "none",
           }
         }
@@ -943,7 +943,7 @@ exports[`<FileIcon /> color variations render correctly 1`] = `
             "fontWeight": "bold",
             "pointerEvents": "none",
             "textAlign": "center",
-            "textTransform": "uppercase",
+            "textTransform": "none",
             "userSelect": "none",
           }
         }
@@ -1065,7 +1065,7 @@ exports[`<FileIcon /> color variations render correctly 1`] = `
             "fontWeight": "bold",
             "pointerEvents": "none",
             "textAlign": "center",
-            "textTransform": "uppercase",
+            "textTransform": "none",
             "userSelect": "none",
           }
         }
@@ -1187,7 +1187,7 @@ exports[`<FileIcon /> color variations render correctly 1`] = `
             "fontWeight": "bold",
             "pointerEvents": "none",
             "textAlign": "center",
-            "textTransform": "uppercase",
+            "textTransform": "none",
             "userSelect": "none",
           }
         }
@@ -2622,7 +2622,7 @@ exports[`<FileIcon /> label colors render correctly 1`] = `
             "fontWeight": "bold",
             "pointerEvents": "none",
             "textAlign": "center",
-            "textTransform": "uppercase",
+            "textTransform": "none",
             "userSelect": "none",
           }
         }
@@ -2734,7 +2734,7 @@ exports[`<FileIcon /> label colors render correctly 1`] = `
             "fontWeight": "bold",
             "pointerEvents": "none",
             "textAlign": "center",
-            "textTransform": "uppercase",
+            "textTransform": "none",
             "userSelect": "none",
           }
         }
@@ -2846,7 +2846,7 @@ exports[`<FileIcon /> label colors render correctly 1`] = `
             "fontWeight": "bold",
             "pointerEvents": "none",
             "textAlign": "center",
-            "textTransform": "uppercase",
+            "textTransform": "none",
             "userSelect": "none",
           }
         }
@@ -2958,7 +2958,7 @@ exports[`<FileIcon /> label colors render correctly 1`] = `
             "fontWeight": "bold",
             "pointerEvents": "none",
             "textAlign": "center",
-            "textTransform": "uppercase",
+            "textTransform": "none",
             "userSelect": "none",
           }
         }
@@ -3070,7 +3070,7 @@ exports[`<FileIcon /> label colors render correctly 1`] = `
             "fontWeight": "bold",
             "pointerEvents": "none",
             "textAlign": "center",
-            "textTransform": "uppercase",
+            "textTransform": "none",
             "userSelect": "none",
           }
         }
@@ -3182,7 +3182,7 @@ exports[`<FileIcon /> label colors render correctly 1`] = `
             "fontWeight": "bold",
             "pointerEvents": "none",
             "textAlign": "center",
-            "textTransform": "uppercase",
+            "textTransform": "none",
             "userSelect": "none",
           }
         }
@@ -3930,7 +3930,7 @@ exports[`<FileIcon /> standard arrangements render correctly 1`] = `
             "fontWeight": "bold",
             "pointerEvents": "none",
             "textAlign": "center",
-            "textTransform": "uppercase",
+            "textTransform": "none",
             "userSelect": "none",
           }
         }
@@ -4042,7 +4042,7 @@ exports[`<FileIcon /> standard arrangements render correctly 1`] = `
             "fontWeight": "bold",
             "pointerEvents": "none",
             "textAlign": "center",
-            "textTransform": "uppercase",
+            "textTransform": "none",
             "userSelect": "none",
           }
         }

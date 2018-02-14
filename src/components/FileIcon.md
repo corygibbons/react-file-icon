@@ -7,6 +7,15 @@ Arrangements
   <FileIcon size={48} type="image" />
   <FileIcon size={48} extension="jpg" />
   <FileIcon size={48} type="image" extension="jpg" />
+  <FileIcon
+    size={48}
+    color="#A8A8A8"
+    labelColor="#A8A8A8"
+    foldColor="#8A8A8A"
+    type="image"
+    extension="jpg"
+    glyphColor="rgba(255,255,255,0.6)"
+  />
 </div>
 ```
 
@@ -14,7 +23,7 @@ Sizing
 
 ```js
 const icons = [72, 60, 48, 36, 24, 16].map((size, i) => {
-  return <FileIcon size={size} type="code" extension="jsx" key={i} />;
+  return <FileIcon size={size} type="code" extension="jsx" labelUppercase key={i} />;
 });
 <div style={{ WebkitFontSmoothing: 'antialiased' }}>{icons}</div>;
 ```
@@ -48,7 +57,7 @@ const icons = [
   'deepskyblue',
   'orchid'
 ].map((color, i) => {
-  return <FileIcon size={48} extension="mp3" labelColor={color} key={i} />;
+  return <FileIcon size={48} extension="mp3" labelColor={color} labelUppercase  key={i} />;
 });
 <div style={{ WebkitFontSmoothing: 'antialiased' }}>{icons}</div>;
 ```
@@ -98,6 +107,7 @@ Examples
     gradientOpacity={0}
     labelColor="#34364E"
     labelTextColor="#31C5F0"
+    labelUppercase
     foldColor="#31C5F0"
     radius={2}
     extension="psd"
@@ -108,6 +118,7 @@ Examples
     gradientOpacity={0}
     labelColor="#423325"
     labelTextColor="#FF7F18"
+    labelUppercase
     foldColor="#FF7F18"
     radius={2}
     extension="ai"
@@ -118,6 +129,7 @@ Examples
     gradientOpacity={0}
     labelColor="#4B2B36"
     labelTextColor="#FF408C"
+    labelUppercase
     foldColor="#FF408C"
     radius={2}
     extension="indd"
@@ -126,6 +138,7 @@ Examples
     size={48}
     color="#2C5898"
     labelColor="#2C5898"
+    labelUppercase
     type="document"
     glyphColor="rgba(255,255,255,0.4)"
     extension="doc"
@@ -134,6 +147,7 @@ Examples
     size={48}
     color="#1A754C"
     labelColor="#1A754C"
+    labelUppercase
     type="spreadsheet"
     glyphColor="rgba(255,255,255,0.4)"
     extension="xls"
@@ -142,6 +156,7 @@ Examples
     size={48}
     color="#D14423"
     labelColor="#D14423"
+    labelUppercase
     type="presentation"
     glyphColor="rgba(255,255,255,0.4)"
     extension="ppt"
