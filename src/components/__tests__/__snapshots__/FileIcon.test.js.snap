@@ -3197,6 +3197,130 @@ exports[`<FileIcon /> label colors render correctly 1`] = `
 </div>
 `;
 
+exports[`<FileIcon /> renders uppercase label when labelUppercase is true 1`] = `
+<div
+  style={
+    Object {
+      "WebkitFontSmoothing": "antialiased",
+      "fontFamily": "Arial",
+    }
+  }
+>
+  <svg
+    height={undefined}
+    style={
+      Object {
+        "maxWidth": "100%",
+      }
+    }
+    viewBox="0 0 48 48"
+    width={undefined}
+  >
+    <defs>
+      <clipPath
+        id="pageRadius44"
+      >
+        <rect
+          height={48}
+          rx={4}
+          ry={4}
+          width={40}
+          x={4}
+          y="0"
+        />
+      </clipPath>
+      <clipPath
+        id="foldCrop"
+      >
+        <rect
+          height={12}
+          transform="rotate(-45 0 12)"
+          width={40}
+        />
+      </clipPath>
+      <linearGradient
+        id="pageGradient44"
+        x1="100%"
+        y1="0%"
+        y2="100%"
+      >
+        <stop
+          offset="0%"
+          stopColor="white"
+          stopOpacity={0.25}
+        />
+        <stop
+          offset="66.67%"
+          stopColor="white"
+          stopOpacity="0"
+        />
+      </linearGradient>
+    </defs>
+    <g
+      clipPath="url(#pageRadius44)"
+      id="file"
+    >
+      <path
+        d="M4 0 h 28 L 44 12 v 36 H 4 Z"
+        fill="whitesmoke"
+      />
+      <path
+        d="M4 0 h 28 L 44 12 v 36 H 4 Z"
+        fill="url(#pageGradient44)"
+      />
+    </g>
+    <g
+      transform="translate(32 12) rotate(-90)"
+    >
+      <rect
+        clipPath="url(#foldCrop)"
+        fill="#dbdbdb"
+        height={48}
+        rx={4}
+        ry={4}
+        width={40}
+      />
+    </g>
+    <g
+      id="label"
+    >
+      <rect
+        clipPath="url(#pageRadius44)"
+        fill="#a8a8a8"
+        height={14}
+        width={40}
+        x={4}
+        y={34}
+      />
+    </g>
+    <g
+      id="labelText"
+      transform="translate(4 34)"
+    >
+      <text
+        fill="white"
+        fontFamily="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        fontSize="9"
+        style={
+          Object {
+            "fontWeight": "bold",
+            "pointerEvents": "none",
+            "textAlign": "center",
+            "textTransform": "uppercase",
+            "userSelect": "none",
+          }
+        }
+        textAnchor="middle"
+        x={20}
+        y="10"
+      >
+        png
+      </text>
+    </g>
+  </svg>
+</div>
+`;
+
 exports[`<FileIcon /> sizing variations render correctly 1`] = `
 <div
   style={

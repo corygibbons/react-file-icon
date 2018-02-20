@@ -217,6 +217,11 @@ describe('<FileIcon />', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  test('renders uppercase label when labelUppercase is true', () => {
+    const tree = render(<FileIcon extension="png" labelUppercase />);
+    expect(tree).toMatchSnapshot();
+  });
+
   test('file types have no visual regressions', async () => {
     const types = [
       '3d',
