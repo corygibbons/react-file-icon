@@ -23,7 +23,9 @@ Sizing
 
 ```js
 const icons = [72, 60, 48, 36, 24, 16].map((size, i) => {
-  return <FileIcon size={size} type="code" extension="jsx" labelUppercase key={i} />;
+  return (
+    <FileIcon size={size} type="code" extension="jsx" labelUppercase key={i} />
+  );
 });
 <div style={{ WebkitFontSmoothing: 'antialiased' }}>{icons}</div>;
 ```
@@ -57,7 +59,15 @@ const icons = [
   'deepskyblue',
   'orchid'
 ].map((color, i) => {
-  return <FileIcon size={48} extension="mp3" labelColor={color} labelUppercase  key={i} />;
+  return (
+    <FileIcon
+      size={48}
+      extension="mp3"
+      labelColor={color}
+      labelUppercase
+      key={i}
+    />
+  );
 });
 <div style={{ WebkitFontSmoothing: 'antialiased' }}>{icons}</div>;
 ```

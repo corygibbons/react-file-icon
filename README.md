@@ -26,3 +26,14 @@ import FileIcon from 'react-file-icon';
 | `radius`          | number | 4          | Corner radius of the file icon    |
 | `size`            | number | undefined  | Width and height of the file icon |
 | `type`            | enum   | undefined  | Type of glyph icon to display (One of: 3d, acrobat, audio, binary, code, compressed, document, drive, font, image, presentation, settings, spreadsheet, vector, video) |
+
+## Default Styles
+
+We also export an object of [default styles](https://github.com/pixelunion/react-file-icon/blob/master/src/components/defaultStyles/index.js) that can be used as a starting point when rendering icons. Object keys map to file extensions.
+
+```js
+import FileIcon, { defaultStyles } from 'react-file-icon';
+
+// Render a .docx icon with default styles
+<FileIcon extension="docx" {...defaultStyles.docx} />
+```
