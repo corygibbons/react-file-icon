@@ -1,8 +1,10 @@
 export default {
   '3dm': {
+    labelColor: '#8D1A11',
     type: '3d'
   },
   '3ds': {
+    labelColor: '#5FB9AD',
     type: '3d'
   },
   '3g2': {
@@ -163,12 +165,14 @@ export default {
     type: 'image'
   },
   js: {
+    labelColor: '#F7DF1E',
     type: 'code'
   },
   json: {
     type: 'code'
   },
   jsx: {
+    labelColor: '#00D8FF',
     type: 'code'
   },
   m4a: {
@@ -178,6 +182,7 @@ export default {
     type: 'video'
   },
   max: {
+    labelColor: '#5FB9AD',
     type: '3d'
   },
   md: {
@@ -226,9 +231,11 @@ export default {
     type: 'font'
   },
   pdf: {
+    labelColor: '#D93831',
     type: 'acrobat'
   },
   php: {
+    labelColor: '#8892BE',
     type: 'code'
   },
   pkg: {
@@ -272,12 +279,14 @@ export default {
     radius: 2
   },
   py: {
+    labelColor: '#FFDE57',
     type: 'code'
   },
   rar: {
     type: 'compressed'
   },
   rb: {
+    labelColor: '#BB271A',
     type: 'code'
   },
   rm: {
@@ -287,6 +296,7 @@ export default {
     type: 'document'
   },
   scss: {
+    labelColor: '#C16A98',
     type: 'code'
   },
   sitx: {
@@ -314,6 +324,7 @@ export default {
     type: 'image'
   },
   ts: {
+    labelColor: '#3478C7',
     type: 'code'
   },
   ttf: {
