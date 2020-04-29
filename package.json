@@ -26,8 +26,6 @@
   "dependencies": {
     "lodash.uniqueid": "^4.0.1",
     "prop-types": "^15.6.0",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
     "tinycolor2": "^1.4.1"
   },
   "devDependencies": {
@@ -45,5 +43,9 @@
     "rollup-plugin-babel": "^3.0.4",
     "webpack": "^3.11.0",
     "webpack-blocks": "^1.0.0"
-  }
+  },
+	"peerDependencies": {
+		"react": "^16.2.0",
+    "react-dom": "^16.2.0"
+	}
 }
