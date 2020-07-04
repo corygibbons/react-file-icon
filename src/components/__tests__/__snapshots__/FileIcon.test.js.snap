@@ -3207,18 +3207,16 @@ exports[`<FileIcon /> renders uppercase label when labelUppercase is true 1`] = 
   }
 >
   <svg
-    height={undefined}
     style={
       Object {
         "maxWidth": "100%",
       }
     }
     viewBox="0 0 48 48"
-    width={undefined}
   >
     <defs>
       <clipPath
-        id="pageRadius44"
+        id="pageRadius53"
       >
         <rect
           height={48}
@@ -3239,7 +3237,7 @@ exports[`<FileIcon /> renders uppercase label when labelUppercase is true 1`] = 
         />
       </clipPath>
       <linearGradient
-        id="pageGradient44"
+        id="pageGradient53"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -3257,7 +3255,7 @@ exports[`<FileIcon /> renders uppercase label when labelUppercase is true 1`] = 
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius44)"
+      clipPath="url(#pageRadius53)"
       id="file"
     >
       <path
@@ -3266,7 +3264,7 @@ exports[`<FileIcon /> renders uppercase label when labelUppercase is true 1`] = 
       />
       <path
         d="M4 0 h 28 L 44 12 v 36 H 4 Z"
-        fill="url(#pageGradient44)"
+        fill="url(#pageGradient53)"
       />
     </g>
     <g
@@ -3285,7 +3283,7 @@ exports[`<FileIcon /> renders uppercase label when labelUppercase is true 1`] = 
       id="label"
     >
       <rect
-        clipPath="url(#pageRadius44)"
+        clipPath="url(#pageRadius53)"
         fill="#a8a8a8"
         height={14}
         width={40}
@@ -4192,90 +4190,955 @@ exports[`<FileIcon /> standard arrangements render correctly 1`] = `
 `;
 
 exports[`<FileIcon /> unique file icons render correctly 1`] = `
-<UNDEFINED>
-  <FileIcon
-    color="#34364E"
-    extension="psd"
-    foldColor="#31C5F0"
-    gradientOpacity={0}
-    labelColor="#34364E"
-    labelTextColor="#31C5F0"
-    radius={2}
-    size={48}
-  />
-  <FileIcon
-    color="#423325"
-    extension="ai"
-    foldColor="#FF7F18"
-    gradientOpacity={0}
-    labelColor="#423325"
-    labelTextColor="#FF7F18"
-    radius={2}
-    size={48}
-  />
-  <FileIcon
-    color="#4B2B36"
-    extension="indd"
-    foldColor="#FF408C"
-    gradientOpacity={0}
-    labelColor="#4B2B36"
-    labelTextColor="#FF408C"
-    radius={2}
-    size={48}
-  />
-  <FileIcon
-    color="#2C5898"
-    extension="doc"
-    glyphColor="rgba(255,255,255,0.4)"
-    labelColor="#2C5898"
-    size={48}
-    type="document"
-  />
-  <FileIcon
-    color="#1A754C"
-    extension="xls"
-    glyphColor="rgba(255,255,255,0.4)"
-    labelColor="#1A754C"
-    size={48}
-    type="spreadsheet"
-  />
-  <FileIcon
-    color="#D14423"
-    extension="ppt"
-    glyphColor="rgba(255,255,255,0.4)"
-    labelColor="#D14423"
-    size={48}
-    type="presentation"
-  />
-  <FileIcon
-    color="#FF8500"
-    fold={false}
-    glyphColor="rgba(255,255,255,0.6)"
-    gradientColor="#FFB900"
-    gradientOpacity={1}
-    radius={6}
-    size={48}
-    type="document"
-  />
-  <FileIcon
-    color="#11D51D"
-    fold={false}
-    glyphColor="rgba(255,255,255,0.6)"
-    gradientColor="#82FA6C"
-    gradientOpacity={1}
-    radius={6}
-    size={48}
-    type="spreadsheet"
-  />
-  <FileIcon
-    color="#1254F8"
-    fold={false}
-    glyphColor="rgba(255,255,255,0.6)"
-    gradientColor="#00D2FF"
-    gradientOpacity={1}
-    radius={6}
-    size={48}
-    type="presentation"
-  />
-</UNDEFINED>
+<div
+  style={
+    Object {
+      "WebkitFontSmoothing": "antialiased",
+      "fontFamily": "Arial",
+    }
+  }
+>
+  <svg
+    height={48}
+    style={
+      Object {
+        "maxWidth": "100%",
+      }
+    }
+    viewBox="0 0 48 48"
+    width={48}
+  >
+    <defs>
+      <clipPath
+        id="pageRadius44"
+      >
+        <rect
+          height={48}
+          rx={2}
+          ry={2}
+          width={40}
+          x={4}
+          y="0"
+        />
+      </clipPath>
+      <clipPath
+        id="foldCrop"
+      >
+        <rect
+          height={12}
+          transform="rotate(-45 0 12)"
+          width={40}
+        />
+      </clipPath>
+      <linearGradient
+        id="pageGradient44"
+        x1="100%"
+        y1="0%"
+        y2="100%"
+      >
+        <stop
+          offset="0%"
+          stopColor="white"
+          stopOpacity={0}
+        />
+        <stop
+          offset="66.67%"
+          stopColor="white"
+          stopOpacity="0"
+        />
+      </linearGradient>
+    </defs>
+    <g
+      clipPath="url(#pageRadius44)"
+      id="file"
+    >
+      <path
+        d="M4 0 h 28 L 44 12 v 36 H 4 Z"
+        fill="#34364E"
+      />
+      <path
+        d="M4 0 h 28 L 44 12 v 36 H 4 Z"
+        fill="url(#pageGradient44)"
+      />
+    </g>
+    <g
+      transform="translate(32 12) rotate(-90)"
+    >
+      <rect
+        clipPath="url(#foldCrop)"
+        fill="#31C5F0"
+        height={48}
+        rx={2}
+        ry={2}
+        width={40}
+      />
+    </g>
+    <g
+      id="label"
+    >
+      <rect
+        clipPath="url(#pageRadius44)"
+        fill="#34364E"
+        height={14}
+        width={40}
+        x={4}
+        y={34}
+      />
+    </g>
+    <g
+      id="labelText"
+      transform="translate(4 34)"
+    >
+      <text
+        fill="#31C5F0"
+        fontFamily="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        fontSize="9"
+        style={
+          Object {
+            "fontWeight": "bold",
+            "pointerEvents": "none",
+            "textAlign": "center",
+            "textTransform": "none",
+            "userSelect": "none",
+          }
+        }
+        textAnchor="middle"
+        x={20}
+        y="10"
+      >
+        psd
+      </text>
+    </g>
+  </svg>
+  <svg
+    height={48}
+    style={
+      Object {
+        "maxWidth": "100%",
+      }
+    }
+    viewBox="0 0 48 48"
+    width={48}
+  >
+    <defs>
+      <clipPath
+        id="pageRadius45"
+      >
+        <rect
+          height={48}
+          rx={2}
+          ry={2}
+          width={40}
+          x={4}
+          y="0"
+        />
+      </clipPath>
+      <clipPath
+        id="foldCrop"
+      >
+        <rect
+          height={12}
+          transform="rotate(-45 0 12)"
+          width={40}
+        />
+      </clipPath>
+      <linearGradient
+        id="pageGradient45"
+        x1="100%"
+        y1="0%"
+        y2="100%"
+      >
+        <stop
+          offset="0%"
+          stopColor="white"
+          stopOpacity={0}
+        />
+        <stop
+          offset="66.67%"
+          stopColor="white"
+          stopOpacity="0"
+        />
+      </linearGradient>
+    </defs>
+    <g
+      clipPath="url(#pageRadius45)"
+      id="file"
+    >
+      <path
+        d="M4 0 h 28 L 44 12 v 36 H 4 Z"
+        fill="#423325"
+      />
+      <path
+        d="M4 0 h 28 L 44 12 v 36 H 4 Z"
+        fill="url(#pageGradient45)"
+      />
+    </g>
+    <g
+      transform="translate(32 12) rotate(-90)"
+    >
+      <rect
+        clipPath="url(#foldCrop)"
+        fill="#FF7F18"
+        height={48}
+        rx={2}
+        ry={2}
+        width={40}
+      />
+    </g>
+    <g
+      id="label"
+    >
+      <rect
+        clipPath="url(#pageRadius45)"
+        fill="#423325"
+        height={14}
+        width={40}
+        x={4}
+        y={34}
+      />
+    </g>
+    <g
+      id="labelText"
+      transform="translate(4 34)"
+    >
+      <text
+        fill="#FF7F18"
+        fontFamily="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        fontSize="9"
+        style={
+          Object {
+            "fontWeight": "bold",
+            "pointerEvents": "none",
+            "textAlign": "center",
+            "textTransform": "none",
+            "userSelect": "none",
+          }
+        }
+        textAnchor="middle"
+        x={20}
+        y="10"
+      >
+        ai
+      </text>
+    </g>
+  </svg>
+  <svg
+    height={48}
+    style={
+      Object {
+        "maxWidth": "100%",
+      }
+    }
+    viewBox="0 0 48 48"
+    width={48}
+  >
+    <defs>
+      <clipPath
+        id="pageRadius46"
+      >
+        <rect
+          height={48}
+          rx={2}
+          ry={2}
+          width={40}
+          x={4}
+          y="0"
+        />
+      </clipPath>
+      <clipPath
+        id="foldCrop"
+      >
+        <rect
+          height={12}
+          transform="rotate(-45 0 12)"
+          width={40}
+        />
+      </clipPath>
+      <linearGradient
+        id="pageGradient46"
+        x1="100%"
+        y1="0%"
+        y2="100%"
+      >
+        <stop
+          offset="0%"
+          stopColor="white"
+          stopOpacity={0}
+        />
+        <stop
+          offset="66.67%"
+          stopColor="white"
+          stopOpacity="0"
+        />
+      </linearGradient>
+    </defs>
+    <g
+      clipPath="url(#pageRadius46)"
+      id="file"
+    >
+      <path
+        d="M4 0 h 28 L 44 12 v 36 H 4 Z"
+        fill="#4B2B36"
+      />
+      <path
+        d="M4 0 h 28 L 44 12 v 36 H 4 Z"
+        fill="url(#pageGradient46)"
+      />
+    </g>
+    <g
+      transform="translate(32 12) rotate(-90)"
+    >
+      <rect
+        clipPath="url(#foldCrop)"
+        fill="#FF408C"
+        height={48}
+        rx={2}
+        ry={2}
+        width={40}
+      />
+    </g>
+    <g
+      id="label"
+    >
+      <rect
+        clipPath="url(#pageRadius46)"
+        fill="#4B2B36"
+        height={14}
+        width={40}
+        x={4}
+        y={34}
+      />
+    </g>
+    <g
+      id="labelText"
+      transform="translate(4 34)"
+    >
+      <text
+        fill="#FF408C"
+        fontFamily="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        fontSize="9"
+        style={
+          Object {
+            "fontWeight": "bold",
+            "pointerEvents": "none",
+            "textAlign": "center",
+            "textTransform": "none",
+            "userSelect": "none",
+          }
+        }
+        textAnchor="middle"
+        x={20}
+        y="10"
+      >
+        indd
+      </text>
+    </g>
+  </svg>
+  <svg
+    height={48}
+    style={
+      Object {
+        "maxWidth": "100%",
+      }
+    }
+    viewBox="0 0 48 48"
+    width={48}
+  >
+    <defs>
+      <clipPath
+        id="pageRadius47"
+      >
+        <rect
+          height={48}
+          rx={4}
+          ry={4}
+          width={40}
+          x={4}
+          y="0"
+        />
+      </clipPath>
+      <clipPath
+        id="foldCrop"
+      >
+        <rect
+          height={12}
+          transform="rotate(-45 0 12)"
+          width={40}
+        />
+      </clipPath>
+      <linearGradient
+        id="pageGradient47"
+        x1="100%"
+        y1="0%"
+        y2="100%"
+      >
+        <stop
+          offset="0%"
+          stopColor="white"
+          stopOpacity={0.25}
+        />
+        <stop
+          offset="66.67%"
+          stopColor="white"
+          stopOpacity="0"
+        />
+      </linearGradient>
+    </defs>
+    <g
+      clipPath="url(#pageRadius47)"
+      id="file"
+    >
+      <path
+        d="M4 0 h 28 L 44 12 v 36 H 4 Z"
+        fill="#2C5898"
+      />
+      <path
+        d="M4 0 h 28 L 44 12 v 36 H 4 Z"
+        fill="url(#pageGradient47)"
+      />
+    </g>
+    <g
+      transform="translate(32 12) rotate(-90)"
+    >
+      <rect
+        clipPath="url(#foldCrop)"
+        fill="#214170"
+        height={48}
+        rx={4}
+        ry={4}
+        width={40}
+      />
+    </g>
+    <g
+      id="label"
+    >
+      <rect
+        clipPath="url(#pageRadius47)"
+        fill="#2C5898"
+        height={14}
+        width={40}
+        x={4}
+        y={34}
+      />
+    </g>
+    <g
+      id="labelText"
+      transform="translate(4 34)"
+    >
+      <text
+        fill="white"
+        fontFamily="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        fontSize="9"
+        style={
+          Object {
+            "fontWeight": "bold",
+            "pointerEvents": "none",
+            "textAlign": "center",
+            "textTransform": "none",
+            "userSelect": "none",
+          }
+        }
+        textAnchor="middle"
+        x={20}
+        y="10"
+      >
+        doc
+      </text>
+    </g>
+    <g
+      fill="rgba(255,255,255,0.4)"
+      transform="translate(0 0)"
+    >
+      <path
+        d="M12 4H0v2h12V4zM0 10h18V8H0v2zM0 0v2h18V0H0z"
+        fillRule="evenodd"
+        transform="translate(15 15)"
+      />
+    </g>
+  </svg>
+  <svg
+    height={48}
+    style={
+      Object {
+        "maxWidth": "100%",
+      }
+    }
+    viewBox="0 0 48 48"
+    width={48}
+  >
+    <defs>
+      <clipPath
+        id="pageRadius48"
+      >
+        <rect
+          height={48}
+          rx={4}
+          ry={4}
+          width={40}
+          x={4}
+          y="0"
+        />
+      </clipPath>
+      <clipPath
+        id="foldCrop"
+      >
+        <rect
+          height={12}
+          transform="rotate(-45 0 12)"
+          width={40}
+        />
+      </clipPath>
+      <linearGradient
+        id="pageGradient48"
+        x1="100%"
+        y1="0%"
+        y2="100%"
+      >
+        <stop
+          offset="0%"
+          stopColor="white"
+          stopOpacity={0.25}
+        />
+        <stop
+          offset="66.67%"
+          stopColor="white"
+          stopOpacity="0"
+        />
+      </linearGradient>
+    </defs>
+    <g
+      clipPath="url(#pageRadius48)"
+      id="file"
+    >
+      <path
+        d="M4 0 h 28 L 44 12 v 36 H 4 Z"
+        fill="#1A754C"
+      />
+      <path
+        d="M4 0 h 28 L 44 12 v 36 H 4 Z"
+        fill="url(#pageGradient48)"
+      />
+    </g>
+    <g
+      transform="translate(32 12) rotate(-90)"
+    >
+      <rect
+        clipPath="url(#foldCrop)"
+        fill="#114b31"
+        height={48}
+        rx={4}
+        ry={4}
+        width={40}
+      />
+    </g>
+    <g
+      id="label"
+    >
+      <rect
+        clipPath="url(#pageRadius48)"
+        fill="#1A754C"
+        height={14}
+        width={40}
+        x={4}
+        y={34}
+      />
+    </g>
+    <g
+      id="labelText"
+      transform="translate(4 34)"
+    >
+      <text
+        fill="white"
+        fontFamily="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        fontSize="9"
+        style={
+          Object {
+            "fontWeight": "bold",
+            "pointerEvents": "none",
+            "textAlign": "center",
+            "textTransform": "none",
+            "userSelect": "none",
+          }
+        }
+        textAnchor="middle"
+        x={20}
+        y="10"
+      >
+        xls
+      </text>
+    </g>
+    <g
+      fill="rgba(255,255,255,0.4)"
+      transform="translate(0 0)"
+    >
+      <path
+        d="M0 8h6V5H0v3zm0 5h6v-3H0v3zM0 3h6V0H0v3zm8 5h12V5H8v3zm0 5h12v-3H8v3zM8 0v3h12V0H8z"
+        fillRule="evenodd"
+        transform="translate(14 14)"
+      />
+    </g>
+  </svg>
+  <svg
+    height={48}
+    style={
+      Object {
+        "maxWidth": "100%",
+      }
+    }
+    viewBox="0 0 48 48"
+    width={48}
+  >
+    <defs>
+      <clipPath
+        id="pageRadius49"
+      >
+        <rect
+          height={48}
+          rx={4}
+          ry={4}
+          width={40}
+          x={4}
+          y="0"
+        />
+      </clipPath>
+      <clipPath
+        id="foldCrop"
+      >
+        <rect
+          height={12}
+          transform="rotate(-45 0 12)"
+          width={40}
+        />
+      </clipPath>
+      <linearGradient
+        id="pageGradient49"
+        x1="100%"
+        y1="0%"
+        y2="100%"
+      >
+        <stop
+          offset="0%"
+          stopColor="white"
+          stopOpacity={0.25}
+        />
+        <stop
+          offset="66.67%"
+          stopColor="white"
+          stopOpacity="0"
+        />
+      </linearGradient>
+    </defs>
+    <g
+      clipPath="url(#pageRadius49)"
+      id="file"
+    >
+      <path
+        d="M4 0 h 28 L 44 12 v 36 H 4 Z"
+        fill="#D14423"
+      />
+      <path
+        d="M4 0 h 28 L 44 12 v 36 H 4 Z"
+        fill="url(#pageGradient49)"
+      />
+    </g>
+    <g
+      transform="translate(32 12) rotate(-90)"
+    >
+      <rect
+        clipPath="url(#foldCrop)"
+        fill="#a5361c"
+        height={48}
+        rx={4}
+        ry={4}
+        width={40}
+      />
+    </g>
+    <g
+      id="label"
+    >
+      <rect
+        clipPath="url(#pageRadius49)"
+        fill="#D14423"
+        height={14}
+        width={40}
+        x={4}
+        y={34}
+      />
+    </g>
+    <g
+      id="labelText"
+      transform="translate(4 34)"
+    >
+      <text
+        fill="white"
+        fontFamily="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        fontSize="9"
+        style={
+          Object {
+            "fontWeight": "bold",
+            "pointerEvents": "none",
+            "textAlign": "center",
+            "textTransform": "none",
+            "userSelect": "none",
+          }
+        }
+        textAnchor="middle"
+        x={20}
+        y="10"
+      >
+        ppt
+      </text>
+    </g>
+    <g
+      fill="rgba(255,255,255,0.4)"
+      transform="translate(0 0)"
+    >
+      <path
+        d="M2 4H0v10c0 1.1.9 2 2 2h14v-2H2V4zm16-4H6C4.9 0 4 .9 4 2v8c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2zm0 10H6V2h12v8z"
+        fillRule="evenodd"
+        transform="matrix(-1 0 0 1 34 12)"
+      />
+    </g>
+  </svg>
+  <svg
+    height={48}
+    style={
+      Object {
+        "maxWidth": "100%",
+      }
+    }
+    viewBox="0 0 48 48"
+    width={48}
+  >
+    <defs>
+      <clipPath
+        id="pageRadius50"
+      >
+        <rect
+          height={48}
+          rx={6}
+          ry={6}
+          width={40}
+          x={4}
+          y="0"
+        />
+      </clipPath>
+      <clipPath
+        id="foldCrop"
+      >
+        <rect
+          height={12}
+          transform="rotate(-45 0 12)"
+          width={40}
+        />
+      </clipPath>
+      <linearGradient
+        id="pageGradient50"
+        x1="100%"
+        y1="0%"
+        y2="100%"
+      >
+        <stop
+          offset="0%"
+          stopColor="#FFB900"
+          stopOpacity={1}
+        />
+        <stop
+          offset="66.67%"
+          stopColor="#FFB900"
+          stopOpacity="0"
+        />
+      </linearGradient>
+    </defs>
+    <g
+      clipPath="url(#pageRadius50)"
+      id="file"
+    >
+      <rect
+        fill="#FF8500"
+        height={48}
+        width={40}
+        x={4}
+        y="0"
+      />
+      <rect
+        fill="url(#pageGradient50)"
+        height={48}
+        width={40}
+        x={4}
+        y="0"
+      />
+    </g>
+    <g
+      fill="rgba(255,255,255,0.6)"
+      transform="translate(0 6)"
+    >
+      <path
+        d="M12 4H0v2h12V4zM0 10h18V8H0v2zM0 0v2h18V0H0z"
+        fillRule="evenodd"
+        transform="translate(15 15)"
+      />
+    </g>
+  </svg>
+  <svg
+    height={48}
+    style={
+      Object {
+        "maxWidth": "100%",
+      }
+    }
+    viewBox="0 0 48 48"
+    width={48}
+  >
+    <defs>
+      <clipPath
+        id="pageRadius51"
+      >
+        <rect
+          height={48}
+          rx={6}
+          ry={6}
+          width={40}
+          x={4}
+          y="0"
+        />
+      </clipPath>
+      <clipPath
+        id="foldCrop"
+      >
+        <rect
+          height={12}
+          transform="rotate(-45 0 12)"
+          width={40}
+        />
+      </clipPath>
+      <linearGradient
+        id="pageGradient51"
+        x1="100%"
+        y1="0%"
+        y2="100%"
+      >
+        <stop
+          offset="0%"
+          stopColor="#82FA6C"
+          stopOpacity={1}
+        />
+        <stop
+          offset="66.67%"
+          stopColor="#82FA6C"
+          stopOpacity="0"
+        />
+      </linearGradient>
+    </defs>
+    <g
+      clipPath="url(#pageRadius51)"
+      id="file"
+    >
+      <rect
+        fill="#11D51D"
+        height={48}
+        width={40}
+        x={4}
+        y="0"
+      />
+      <rect
+        fill="url(#pageGradient51)"
+        height={48}
+        width={40}
+        x={4}
+        y="0"
+      />
+    </g>
+    <g
+      fill="rgba(255,255,255,0.6)"
+      transform="translate(0 6)"
+    >
+      <path
+        d="M0 8h6V5H0v3zm0 5h6v-3H0v3zM0 3h6V0H0v3zm8 5h12V5H8v3zm0 5h12v-3H8v3zM8 0v3h12V0H8z"
+        fillRule="evenodd"
+        transform="translate(14 14)"
+      />
+    </g>
+  </svg>
+  <svg
+    height={48}
+    style={
+      Object {
+        "maxWidth": "100%",
+      }
+    }
+    viewBox="0 0 48 48"
+    width={48}
+  >
+    <defs>
+      <clipPath
+        id="pageRadius52"
+      >
+        <rect
+          height={48}
+          rx={6}
+          ry={6}
+          width={40}
+          x={4}
+          y="0"
+        />
+      </clipPath>
+      <clipPath
+        id="foldCrop"
+      >
+        <rect
+          height={12}
+          transform="rotate(-45 0 12)"
+          width={40}
+        />
+      </clipPath>
+      <linearGradient
+        id="pageGradient52"
+        x1="100%"
+        y1="0%"
+        y2="100%"
+      >
+        <stop
+          offset="0%"
+          stopColor="#00D2FF"
+          stopOpacity={1}
+        />
+        <stop
+          offset="66.67%"
+          stopColor="#00D2FF"
+          stopOpacity="0"
+        />
+      </linearGradient>
+    </defs>
+    <g
+      clipPath="url(#pageRadius52)"
+      id="file"
+    >
+      <rect
+        fill="#1254F8"
+        height={48}
+        width={40}
+        x={4}
+        y="0"
+      />
+      <rect
+        fill="url(#pageGradient52)"
+        height={48}
+        width={40}
+        x={4}
+        y="0"
+      />
+    </g>
+    <g
+      fill="rgba(255,255,255,0.6)"
+      transform="translate(0 6)"
+    >
+      <path
+        d="M2 4H0v10c0 1.1.9 2 2 2h14v-2H2V4zm16-4H6C4.9 0 4 .9 4 2v8c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2zm0 10H6V2h12v8z"
+        fillRule="evenodd"
+        transform="matrix(-1 0 0 1 34 12)"
+      />
+    </g>
+  </svg>
+</div>
 `;

@@ -1,19 +1,19 @@
-import React from 'react';
-import renderer from 'react-test-renderer';
-import ReactDOMServer from 'react-dom/server';
-import { toMatchImageSnapshot } from 'jest-image-snapshot';
-import { generateImage } from 'component-image';
+import React from "react";
+import renderer from "react-test-renderer";
+import ReactDOMServer from "react-dom/server";
+import { toMatchImageSnapshot } from "jest-image-snapshot";
+import { generateImage } from "component-image";
 
 expect.extend({ toMatchImageSnapshot });
 
-import { FileIcon } from '../FileIcon';
+import { FileIcon } from "../FileIcon";
 
-const render = content => {
+const render = (content) => {
   return renderer.create(
     <div
       style={{
-        WebkitFontSmoothing: 'antialiased',
-        fontFamily: 'Arial'
+        WebkitFontSmoothing: "antialiased",
+        fontFamily: "Arial",
       }}
     >
       {content}
@@ -21,8 +21,8 @@ const render = content => {
   );
 };
 
-describe('<FileIcon />', () => {
-  test('standard arrangements render correctly', () => {
+describe("<FileIcon />", () => {
+  test("standard arrangements render correctly", () => {
     const tree = render(
       <React.Fragment>
         <FileIcon size={48} fold={false} />
@@ -35,34 +35,38 @@ describe('<FileIcon />', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  test('sizing variations render correctly', () => {
+  test("sizing variations render correctly", () => {
     const sizes = [16, 24, 36, 60, 72];
     const tree = render(
       <React.Fragment>
-        {sizes.map((size, i) => <FileIcon size={size} key={i} />)}
+        {sizes.map((size, i) => (
+          <FileIcon size={size} key={i} />
+        ))}
       </React.Fragment>
     );
     expect(tree).toMatchSnapshot();
   });
 
-  test('border radius variations render correctly', () => {
+  test("border radius variations render correctly", () => {
     const radius = [0, 2, 4, 6, 8, 10];
     const tree = render(
       <React.Fragment>
-        {radius.map((r, i) => <FileIcon radius={r} size={48} key={i} />)}
+        {radius.map((r, i) => (
+          <FileIcon radius={r} size={48} key={i} />
+        ))}
       </React.Fragment>
     );
     expect(tree).toMatchSnapshot();
   });
 
-  test('color variations render correctly', () => {
+  test("color variations render correctly", () => {
     const colors = [
-      'mistyrose',
-      'papayawhip',
-      'cornsilk',
-      'beige',
-      'aliceblue',
-      'lavender'
+      "mistyrose",
+      "papayawhip",
+      "cornsilk",
+      "beige",
+      "aliceblue",
+      "lavender",
     ];
     const tree = render(
       <React.Fragment>
@@ -80,14 +84,14 @@ describe('<FileIcon />', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  test('label colors render correctly', () => {
+  test("label colors render correctly", () => {
     const colors = [
-      'tomato',
-      'orange',
-      'gold',
-      'lightgreen',
-      'deepskyblue',
-      'orchid'
+      "tomato",
+      "orange",
+      "gold",
+      "lightgreen",
+      "deepskyblue",
+      "orchid",
     ];
     const tree = render(
       <React.Fragment>
@@ -99,34 +103,36 @@ describe('<FileIcon />', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  test('file type glyphs render correctly', () => {
+  test("file type glyphs render correctly", () => {
     const types = [
-      '3d',
-      'acrobat',
-      'audio',
-      'binary',
-      'code',
-      'compressed',
-      'document',
-      'drive',
-      'font',
-      'image',
-      'presentation',
-      'settings',
-      'spreadsheet',
-      'vector',
-      'video'
+      "3d",
+      "acrobat",
+      "audio",
+      "binary",
+      "code",
+      "compressed",
+      "document",
+      "drive",
+      "font",
+      "image",
+      "presentation",
+      "settings",
+      "spreadsheet",
+      "vector",
+      "video",
     ];
     const tree = render(
       <React.Fragment>
-        {types.map((type, i) => <FileIcon size={48} type={type} key={i} />)}
+        {types.map((type, i) => (
+          <FileIcon size={48} type={type} key={i} />
+        ))}
       </React.Fragment>
     );
     expect(tree).toMatchSnapshot();
   });
 
-  test('unique file icons render correctly', () => {
-    const tree = (
+  test("unique file icons render correctly", () => {
+    const tree = render(
       <React.Fragment>
         <FileIcon
           size={48}
@@ -217,33 +223,35 @@ describe('<FileIcon />', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  test('renders uppercase label when labelUppercase is true', () => {
+  test("renders uppercase label when labelUppercase is true", () => {
     const tree = render(<FileIcon extension="png" labelUppercase />);
     expect(tree).toMatchSnapshot();
   });
 
-  test('file types have no visual regressions', async () => {
+  test("file types have no visual regressions", async () => {
     const types = [
-      '3d',
-      'acrobat',
-      'audio',
-      'binary',
-      'code',
-      'code2',
-      'compressed',
-      'document',
-      'drive',
-      'font',
-      'image',
-      'presentation',
-      'settings',
-      'spreadsheet',
-      'vector',
-      'video'
+      "3d",
+      "acrobat",
+      "audio",
+      "binary",
+      "code",
+      "code2",
+      "compressed",
+      "document",
+      "drive",
+      "font",
+      "image",
+      "presentation",
+      "settings",
+      "spreadsheet",
+      "vector",
+      "video",
     ];
     const component = (
       <React.Fragment>
-        {types.map((type, i) => <FileIcon size={48} type={type} key={i} />)}
+        {types.map((type, i) => (
+          <FileIcon size={48} type={type} key={i} />
+        ))}
       </React.Fragment>
     );
 
@@ -251,8 +259,8 @@ describe('<FileIcon />', () => {
       renderer: ReactDOMServer.renderToStaticMarkup,
       viewport: {
         width: 600,
-        height: 300
-      }
+        height: 300,
+      },
     });
     expect(image).toMatchImageSnapshot();
   });
