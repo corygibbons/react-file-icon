@@ -1,2 +1,2 @@
-export { default as FileIcon } from "./components/FileIcon";
-export { default as defaultStyles } from "./components/defaultStyles/index";
+export { default as FileIcon } from './FileIcon';
+export { default as defaultStyles } from './defaultStyles';

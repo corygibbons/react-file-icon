@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import tinycolor from 'tinycolor2';
 import uniqueId from 'lodash.uniqueid';
 
-import glyphs from '../glyphs/index';
+import glyphs from './glyphs';
 
 const propTypes = {
   /** Color of icon background */
@@ -49,23 +49,23 @@ const propTypes = {
     'settings',
     'spreadsheet',
     'vector',
-    'video'
-  ])
+    'video',
+  ]),
 };
 
 const VIEWBOX = {
   WIDTH: 48,
-  HEIGHT: 48
+  HEIGHT: 48,
 };
 
 const ICON = {
   WIDTH: 40,
   HEIGHT: VIEWBOX.HEIGHT,
-  X_OFFSET: 4
+  X_OFFSET: 4,
 };
 
 const FOLD = {
-  HEIGHT: 12
+  HEIGHT: 12,
 };
 
 const LABEL_HEIGHT = 14;
@@ -84,7 +84,7 @@ export const FileIcon = ({
   labelUppercase = false,
   radius = 4,
   size,
-  type
+  type,
 }) => {
   const UNIQUE_ID = uniqueId();
 
@@ -134,17 +134,19 @@ export const FileIcon = ({
         {fold ? (
           <React.Fragment>
             <path
-              d={`M${ICON.X_OFFSET} 0 h ${ICON.WIDTH -
-                FOLD.HEIGHT} L ${ICON.WIDTH + ICON.X_OFFSET} ${
-                FOLD.HEIGHT
-              } v ${ICON.HEIGHT - FOLD.HEIGHT} H ${ICON.X_OFFSET} Z`}
+              d={`M${ICON.X_OFFSET} 0 h ${ICON.WIDTH - FOLD.HEIGHT} L ${
+                ICON.WIDTH + ICON.X_OFFSET
+              } ${FOLD.HEIGHT} v ${ICON.HEIGHT - FOLD.HEIGHT} H ${
+                ICON.X_OFFSET
+              } Z`}
               fill={color}
             />
             <path
-              d={`M${ICON.X_OFFSET} 0 h ${ICON.WIDTH -
-                FOLD.HEIGHT} L ${ICON.WIDTH + ICON.X_OFFSET} ${
-                FOLD.HEIGHT
-              } v ${ICON.HEIGHT - FOLD.HEIGHT} H ${ICON.X_OFFSET} Z`}
+              d={`M${ICON.X_OFFSET} 0 h ${ICON.WIDTH - FOLD.HEIGHT} L ${
+                ICON.WIDTH + ICON.X_OFFSET
+              } ${FOLD.HEIGHT} v ${ICON.HEIGHT - FOLD.HEIGHT} H ${
+                ICON.X_OFFSET
+              } Z`}
               fill={`url(#pageGradient${UNIQUE_ID})`}
             />
           </React.Fragment>
@@ -173,12 +175,7 @@ export const FileIcon = ({
           <rect
             width={ICON.WIDTH}
             height={ICON.HEIGHT}
-            fill={
-              foldColor ||
-              tinycolor(color)
-                .darken(10)
-                .toString()
-            }
+            fill={foldColor || tinycolor(color).darken(10).toString()}
             rx={radius}
             ry={radius}
             clipPath="url(#foldCrop)"
@@ -190,12 +187,7 @@ export const FileIcon = ({
         <React.Fragment>
           <g id="label">
             <rect
-              fill={
-                labelColor ||
-                tinycolor(color)
-                  .darken(30)
-                  .toString()
-              }
+              fill={labelColor || tinycolor(color).darken(30).toString()}
               x={ICON.X_OFFSET}
               y={ICON.HEIGHT - LABEL_HEIGHT}
               width={ICON.WIDTH}
@@ -216,7 +208,7 @@ export const FileIcon = ({
                 textAlign: 'center',
                 pointerEvents: 'none',
                 textTransform: labelUppercase ? 'uppercase' : 'none',
-                userSelect: 'none'
+                userSelect: 'none',
               }}
             >
               {extension}
@@ -228,12 +220,7 @@ export const FileIcon = ({
       {type && (
         <g
           transform={`translate(0 ${!extension ? 6 : 0})`}
-          fill={
-            glyphColor ||
-            tinycolor(color)
-              .darken(15)
-              .toString()
-          }
+          fill={glyphColor || tinycolor(color).darken(15).toString()}
         >
           {glyphs[type]}
         </g>
