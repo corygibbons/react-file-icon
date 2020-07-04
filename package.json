@@ -11,7 +11,7 @@
   "scripts": {
     "build": "microbundle --jsx React.createElement --no-sourcemap",
     "watch": "microbundle --jsx React.createElement --watch",
-    "test": "jest --config config/jest.js"
+    "test": "jest --config config/jest.config.js"
   },
   "keywords": [
     "react",
