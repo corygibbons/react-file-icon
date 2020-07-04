@@ -2,14 +2,15 @@
   "name": "react-file-icon",
   "version": "0.2.0",
   "description": "React component to render svg file icons",
-  "author": "Pixel Union",
   "repository": {
-    "url": "http://github.com/pixelunion/react-file-icon"
+    "url": "http://github.com/corygibbons/react-file-icon"
   },
-  "main": "dist/main.js",
+  "source": "src/index.js",
+  "main": "dist/react-file-icon.js",
+  "module": "dist/react-file-icon.esm.js",
   "scripts": {
-    "build": "rollup -c config/rollup.js",
-    "prepublish": "npm run build",
+    "build": "microbundle --jsx React.createElement --no-sourcemap",
+    "watch": "microbundle --jsx React.createElement --watch",
     "start": "npm run styleguidist",
     "styleguidist": "styleguidist server --config config/styleguide/styleguidist.js",
     "styleguidist:build": "styleguidist build --config config/styleguide/styleguidist.js",
@@ -34,18 +35,17 @@
     "babel-plugin-external-helpers": "^6.22.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
-    "component-image": "^1.1.0",
+    "component-image": "^2.1.1",
     "jest": "^22.4.3",
     "jest-image-snapshot": "^2.4.1",
+    "microbundle": "^0.12.2",
     "react-styleguidist": "^6.5.3",
     "react-test-renderer": "^16.3.2",
-    "rollup": "^0.54.1",
-    "rollup-plugin-babel": "^3.0.4",
     "webpack": "^3.11.0",
     "webpack-blocks": "^1.0.0"
   },
-	"peerDependencies": {
-		"react": "^16.2.0",
+  "peerDependencies": {
+    "react": "^16.2.0",
     "react-dom": "^16.2.0"
-	}
+  }
 }
