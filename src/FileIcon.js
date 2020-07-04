@@ -28,8 +28,6 @@ const propTypes = {
   labelUppercase: PropTypes.bool,
   /** Corner radius of the file icon */
   radius: PropTypes.number,
-  /** Width and height of the file icon */
-  size: PropTypes.number,
   /** Type of glyph icon to display */
   type: PropTypes.oneOf([
     '3d',
@@ -52,14 +50,14 @@ const propTypes = {
 };
 
 const VIEWBOX = {
-  WIDTH: 48,
+  WIDTH: 40,
   HEIGHT: 48,
 };
 
 const ICON = {
-  WIDTH: 40,
+  WIDTH: VIEWBOX.WIDTH,
   HEIGHT: VIEWBOX.HEIGHT,
-  X_OFFSET: 4,
+  X_OFFSET: 0,
 };
 
 const FOLD = {
@@ -80,7 +78,6 @@ export const FileIcon = ({
   labelTextColor = 'white',
   labelUppercase = false,
   radius = 4,
-  size,
   type,
 }) => {
   const UNIQUE_ID = uniqueId();
@@ -89,8 +86,7 @@ export const FileIcon = ({
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox={`0 0 ${VIEWBOX.WIDTH} ${VIEWBOX.HEIGHT}`}
-      width={size}
-      height={size}
+      width="100%"
       style={{ maxWidth: '100%' }}
     >
       <defs>
@@ -168,7 +164,7 @@ export const FileIcon = ({
       </g>
 
       {fold && (
-        <g transform={`translate(32 ${FOLD.HEIGHT}) rotate(-90)`}>
+        <g transform={`translate(28 ${FOLD.HEIGHT}) rotate(-90)`}>
           <rect
             width={ICON.WIDTH}
             height={ICON.HEIGHT}
@@ -216,7 +212,7 @@ export const FileIcon = ({
 
       {type && (
         <g
-          transform={`translate(0 ${!extension ? 6 : 0})`}
+          transform={`translate(-4 ${!extension ? 6 : 0})`}
           fill={glyphColor || tinycolor(color).darken(15).toString()}
         >
           {glyphs[type]}

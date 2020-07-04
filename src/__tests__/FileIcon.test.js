@@ -25,23 +25,11 @@ describe('<FileIcon />', () => {
   test('standard arrangements render correctly', () => {
     const tree = render(
       <React.Fragment>
-        <FileIcon size={48} fold={false} />
-        <FileIcon size={48} />
-        <FileIcon size={48} type="image" />
-        <FileIcon size={48} extension="jpg" />
-        <FileIcon size={48} type="image" extension="jpg" />
-      </React.Fragment>
-    );
-    expect(tree).toMatchSnapshot();
-  });
-
-  test('sizing variations render correctly', () => {
-    const sizes = [16, 24, 36, 60, 72];
-    const tree = render(
-      <React.Fragment>
-        {sizes.map((size, i) => (
-          <FileIcon size={size} key={i} />
-        ))}
+        <FileIcon fold={false} />
+        <FileIcon />
+        <FileIcon type="image" />
+        <FileIcon extension="jpg" />
+        <FileIcon type="image" extension="jpg" />
       </React.Fragment>
     );
     expect(tree).toMatchSnapshot();
@@ -52,7 +40,7 @@ describe('<FileIcon />', () => {
     const tree = render(
       <React.Fragment>
         {radius.map((r, i) => (
-          <FileIcon radius={r} size={48} key={i} />
+          <FileIcon radius={r} key={i} />
         ))}
       </React.Fragment>
     );
@@ -71,13 +59,7 @@ describe('<FileIcon />', () => {
     const tree = render(
       <React.Fragment>
         {colors.map((color, i) => (
-          <FileIcon
-            color={color}
-            size={48}
-            type="image"
-            extension="png"
-            key={i}
-          />
+          <FileIcon color={color} type="image" extension="png" key={i} />
         ))}
       </React.Fragment>
     );
@@ -96,7 +78,7 @@ describe('<FileIcon />', () => {
     const tree = render(
       <React.Fragment>
         {colors.map((color, i) => (
-          <FileIcon labelColor={color} size={48} extension="mp3" key={i} />
+          <FileIcon labelColor={color} extension="mp3" key={i} />
         ))}
       </React.Fragment>
     );
@@ -124,7 +106,7 @@ describe('<FileIcon />', () => {
     const tree = render(
       <React.Fragment>
         {types.map((type, i) => (
-          <FileIcon size={48} type={type} key={i} />
+          <FileIcon type={type} key={i} />
         ))}
       </React.Fragment>
     );
@@ -135,7 +117,6 @@ describe('<FileIcon />', () => {
     const tree = render(
       <React.Fragment>
         <FileIcon
-          size={48}
           color="#34364E"
           gradientOpacity={0}
           labelColor="#34364E"
@@ -145,7 +126,6 @@ describe('<FileIcon />', () => {
           extension="psd"
         />
         <FileIcon
-          size={48}
           color="#423325"
           gradientOpacity={0}
           labelColor="#423325"
@@ -155,7 +135,6 @@ describe('<FileIcon />', () => {
           extension="ai"
         />
         <FileIcon
-          size={48}
           color="#4B2B36"
           gradientOpacity={0}
           labelColor="#4B2B36"
@@ -165,7 +144,6 @@ describe('<FileIcon />', () => {
           extension="indd"
         />
         <FileIcon
-          size={48}
           color="#2C5898"
           labelColor="#2C5898"
           type="document"
@@ -173,7 +151,6 @@ describe('<FileIcon />', () => {
           extension="doc"
         />
         <FileIcon
-          size={48}
           color="#1A754C"
           labelColor="#1A754C"
           type="spreadsheet"
@@ -181,7 +158,6 @@ describe('<FileIcon />', () => {
           extension="xls"
         />
         <FileIcon
-          size={48}
           color="#D14423"
           labelColor="#D14423"
           type="presentation"
@@ -189,7 +165,6 @@ describe('<FileIcon />', () => {
           extension="ppt"
         />
         <FileIcon
-          size={48}
           color="#FF8500"
           gradientColor="#FFB900"
           gradientOpacity={1}
@@ -199,7 +174,6 @@ describe('<FileIcon />', () => {
           glyphColor="rgba(255,255,255,0.6)"
         />
         <FileIcon
-          size={48}
           color="#11D51D"
           gradientColor="#82FA6C"
           gradientOpacity={1}
@@ -209,7 +183,6 @@ describe('<FileIcon />', () => {
           glyphColor="rgba(255,255,255,0.6)"
         />
         <FileIcon
-          size={48}
           color="#1254F8"
           gradientColor="#00D2FF"
           gradientOpacity={1}
@@ -250,8 +223,8 @@ describe('<FileIcon />', () => {
     const component = (
       <div style={{ display: 'flex', flexWrap: 'wrap' }}>
         {types.map((type, i) => (
-          <div style={{ padding: 6 }} key={i}>
-            <FileIcon size={48} type={type} />
+          <div style={{ width: 48, margin: 6 }} key={i}>
+            <FileIcon type={type} />
           </div>
         ))}
       </div>
@@ -269,10 +242,10 @@ describe('<FileIcon />', () => {
 
   test('sizes have no visual regressions', async () => {
     const component = (
-      <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+      <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center' }}>
         {[24, 36, 48, 60, 72].map((size, i) => (
-          <div style={{ padding: 6 }} key={i}>
-            <FileIcon size={size} type="code" />
+          <div style={{ width: size, margin: 6 }} key={i}>
+            <FileIcon type="code" />
           </div>
         ))}
       </div>
@@ -299,8 +272,8 @@ describe('<FileIcon />', () => {
           'aliceblue',
           'lavender',
         ].map((color, i) => (
-          <div style={{ padding: 6 }} key={i}>
-            <FileIcon size={48} color={color} type="code" extension=" " />
+          <div style={{ width: 48, margin: 6 }} key={i}>
+            <FileIcon color={color} type="code" extension=" " />
           </div>
         ))}
       </div>
