@@ -11,9 +11,6 @@
   "scripts": {
     "build": "microbundle --jsx React.createElement --no-sourcemap",
     "watch": "microbundle --jsx React.createElement --watch",
-    "start": "npm run styleguidist",
-    "styleguidist": "styleguidist server --config config/styleguide/styleguidist.js",
-    "styleguidist:build": "styleguidist build --config config/styleguide/styleguidist.js",
     "test": "jest --config config/jest.js"
   },
   "keywords": [
@@ -39,10 +36,7 @@
     "jest": "^22.4.3",
     "jest-image-snapshot": "^2.4.1",
     "microbundle": "^0.12.2",
-    "react-styleguidist": "^6.5.3",
-    "react-test-renderer": "^16.3.2",
-    "webpack": "^3.11.0",
-    "webpack-blocks": "^1.0.0"
+    "react-test-renderer": "^16.3.2"
   },
   "peerDependencies": {
     "react": "^16.2.0",
