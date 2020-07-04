@@ -248,11 +248,62 @@ describe('<FileIcon />', () => {
       'video',
     ];
     const component = (
-      <React.Fragment>
+      <div style={{ display: 'flex', flexWrap: 'wrap' }}>
         {types.map((type, i) => (
-          <FileIcon size={48} type={type} key={i} />
+          <div style={{ padding: 6 }} key={i}>
+            <FileIcon size={48} type={type} />
+          </div>
         ))}
-      </React.Fragment>
+      </div>
+    );
+
+    const image = await generateImage(component, {
+      renderer: ReactDOMServer.renderToStaticMarkup,
+      viewport: {
+        width: 600,
+        height: 300,
+      },
+    });
+    expect(image).toMatchImageSnapshot();
+  });
+
+  test('sizes have no visual regressions', async () => {
+    const component = (
+      <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+        {[24, 36, 48, 60, 72].map((size, i) => (
+          <div style={{ padding: 6 }} key={i}>
+            <FileIcon size={size} type="code" />
+          </div>
+        ))}
+      </div>
+    );
+
+    const image = await generateImage(component, {
+      renderer: ReactDOMServer.renderToStaticMarkup,
+      viewport: {
+        width: 600,
+        height: 300,
+      },
+    });
+    expect(image).toMatchImageSnapshot();
+  });
+
+  test('colors have no visual regressions', async () => {
+    const component = (
+      <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+        {[
+          'mistyrose',
+          'papayawhip',
+          'cornsilk',
+          'beige',
+          'aliceblue',
+          'lavender',
+        ].map((color, i) => (
+          <div style={{ padding: 6 }} key={i}>
+            <FileIcon size={48} color={color} type="code" extension=" " />
+          </div>
+        ))}
+      </div>
     );
 
     const image = await generateImage(component, {
