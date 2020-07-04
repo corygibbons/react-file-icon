@@ -6,7 +6,7 @@ import { generateImage } from 'component-image';
 
 expect.extend({ toMatchImageSnapshot });
 
-import { FileIcon } from '../../dist/react-file-icon';
+import { FileIcon, defaultStyles } from '../../dist/react-file-icon';
 
 const render = content => {
   return renderer.create(
@@ -274,6 +274,27 @@ describe('<FileIcon />', () => {
         ].map((color, i) => (
           <div style={{ width: 48, margin: 6 }} key={i}>
             <FileIcon color={color} type="code" extension=" " />
+          </div>
+        ))}
+      </div>
+    );
+
+    const image = await generateImage(component, {
+      renderer: ReactDOMServer.renderToStaticMarkup,
+      viewport: {
+        width: 600,
+        height: 300,
+      },
+    });
+    expect(image).toMatchImageSnapshot();
+  });
+
+  test('default styles have no visual regressions', async () => {
+    const component = (
+      <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+        {['psd', 'ai', 'indd', 'doc', 'xls', 'ppt'].map((kind, i) => (
+          <div style={{ width: 48, margin: 6 }} key={i}>
+            <FileIcon {...defaultStyles[kind]} />
           </div>
         ))}
       </div>
