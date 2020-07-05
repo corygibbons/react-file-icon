@@ -3,6 +3,7 @@
 # React File Icon
 
 [![npm version](https://img.shields.io/npm/v/react-file-icon.svg?style=flat-square)](https://www.npmjs.com/package/react-file-icon)
+[![gh workflow](https://img.shields.io/github/workflow/status/corygibbons/react-file-icon/Test/master.svg?style=flat-square)](https://github.com/corygibbons/react-file-icon/actions?query=workflow%3ATest+branch%3Amaster)
 
 ```js
 import { FileIcon } from 'react-file-icon';
