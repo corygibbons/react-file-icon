@@ -6,14 +6,14 @@ import { generateImage } from 'component-image';
 
 expect.extend({ toMatchImageSnapshot });
 
-import { FileIcon } from '../FileIcon';
+import { FileIcon, defaultStyles } from '../../dist/react-file-icon';
 
 const render = content => {
   return renderer.create(
     <div
       style={{
         WebkitFontSmoothing: 'antialiased',
-        fontFamily: 'Arial'
+        fontFamily: 'Arial',
       }}
     >
       {content}
@@ -25,21 +25,11 @@ describe('<FileIcon />', () => {
   test('standard arrangements render correctly', () => {
     const tree = render(
       <React.Fragment>
-        <FileIcon size={48} fold={false} />
-        <FileIcon size={48} />
-        <FileIcon size={48} type="image" />
-        <FileIcon size={48} extension="jpg" />
-        <FileIcon size={48} type="image" extension="jpg" />
-      </React.Fragment>
-    );
-    expect(tree).toMatchSnapshot();
-  });
-
-  test('sizing variations render correctly', () => {
-    const sizes = [16, 24, 36, 60, 72];
-    const tree = render(
-      <React.Fragment>
-        {sizes.map((size, i) => <FileIcon size={size} key={i} />)}
+        <FileIcon fold={false} />
+        <FileIcon />
+        <FileIcon type="image" />
+        <FileIcon extension="jpg" />
+        <FileIcon type="image" extension="jpg" />
       </React.Fragment>
     );
     expect(tree).toMatchSnapshot();
@@ -49,7 +39,9 @@ describe('<FileIcon />', () => {
     const radius = [0, 2, 4, 6, 8, 10];
     const tree = render(
       <React.Fragment>
-        {radius.map((r, i) => <FileIcon radius={r} size={48} key={i} />)}
+        {radius.map((r, i) => (
+          <FileIcon radius={r} key={i} />
+        ))}
       </React.Fragment>
     );
     expect(tree).toMatchSnapshot();
@@ -62,18 +54,12 @@ describe('<FileIcon />', () => {
       'cornsilk',
       'beige',
       'aliceblue',
-      'lavender'
+      'lavender',
     ];
     const tree = render(
       <React.Fragment>
         {colors.map((color, i) => (
-          <FileIcon
-            color={color}
-            size={48}
-            type="image"
-            extension="png"
-            key={i}
-          />
+          <FileIcon color={color} type="image" extension="png" key={i} />
         ))}
       </React.Fragment>
     );
@@ -87,12 +73,12 @@ describe('<FileIcon />', () => {
       'gold',
       'lightgreen',
       'deepskyblue',
-      'orchid'
+      'orchid',
     ];
     const tree = render(
       <React.Fragment>
         {colors.map((color, i) => (
-          <FileIcon labelColor={color} size={48} extension="mp3" key={i} />
+          <FileIcon labelColor={color} extension="mp3" key={i} />
         ))}
       </React.Fragment>
     );
@@ -115,21 +101,22 @@ describe('<FileIcon />', () => {
       'settings',
       'spreadsheet',
       'vector',
-      'video'
+      'video',
     ];
     const tree = render(
       <React.Fragment>
-        {types.map((type, i) => <FileIcon size={48} type={type} key={i} />)}
+        {types.map((type, i) => (
+          <FileIcon type={type} key={i} />
+        ))}
       </React.Fragment>
     );
     expect(tree).toMatchSnapshot();
   });
 
   test('unique file icons render correctly', () => {
-    const tree = (
+    const tree = render(
       <React.Fragment>
         <FileIcon
-          size={48}
           color="#34364E"
           gradientOpacity={0}
           labelColor="#34364E"
@@ -139,7 +126,6 @@ describe('<FileIcon />', () => {
           extension="psd"
         />
         <FileIcon
-          size={48}
           color="#423325"
           gradientOpacity={0}
           labelColor="#423325"
@@ -149,7 +135,6 @@ describe('<FileIcon />', () => {
           extension="ai"
         />
         <FileIcon
-          size={48}
           color="#4B2B36"
           gradientOpacity={0}
           labelColor="#4B2B36"
@@ -159,7 +144,6 @@ describe('<FileIcon />', () => {
           extension="indd"
         />
         <FileIcon
-          size={48}
           color="#2C5898"
           labelColor="#2C5898"
           type="document"
@@ -167,7 +151,6 @@ describe('<FileIcon />', () => {
           extension="doc"
         />
         <FileIcon
-          size={48}
           color="#1A754C"
           labelColor="#1A754C"
           type="spreadsheet"
@@ -175,7 +158,6 @@ describe('<FileIcon />', () => {
           extension="xls"
         />
         <FileIcon
-          size={48}
           color="#D14423"
           labelColor="#D14423"
           type="presentation"
@@ -183,7 +165,6 @@ describe('<FileIcon />', () => {
           extension="ppt"
         />
         <FileIcon
-          size={48}
           color="#FF8500"
           gradientColor="#FFB900"
           gradientOpacity={1}
@@ -193,7 +174,6 @@ describe('<FileIcon />', () => {
           glyphColor="rgba(255,255,255,0.6)"
         />
         <FileIcon
-          size={48}
           color="#11D51D"
           gradientColor="#82FA6C"
           gradientOpacity={1}
@@ -203,7 +183,6 @@ describe('<FileIcon />', () => {
           glyphColor="rgba(255,255,255,0.6)"
         />
         <FileIcon
-          size={48}
           color="#1254F8"
           gradientColor="#00D2FF"
           gradientOpacity={1}
@@ -239,20 +218,94 @@ describe('<FileIcon />', () => {
       'settings',
       'spreadsheet',
       'vector',
-      'video'
+      'video',
     ];
     const component = (
-      <React.Fragment>
-        {types.map((type, i) => <FileIcon size={48} type={type} key={i} />)}
-      </React.Fragment>
+      <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+        {types.map((type, i) => (
+          <div style={{ width: 48, margin: 6 }} key={i}>
+            <FileIcon type={type} />
+          </div>
+        ))}
+      </div>
     );
 
     const image = await generateImage(component, {
       renderer: ReactDOMServer.renderToStaticMarkup,
       viewport: {
         width: 600,
-        height: 300
-      }
+        height: 300,
+      },
+    });
+    expect(image).toMatchImageSnapshot();
+  });
+
+  test('sizes have no visual regressions', async () => {
+    const component = (
+      <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center' }}>
+        {[24, 36, 48, 60, 72].map((size, i) => (
+          <div style={{ width: size, margin: 6 }} key={i}>
+            <FileIcon type="code" />
+          </div>
+        ))}
+      </div>
+    );
+
+    const image = await generateImage(component, {
+      renderer: ReactDOMServer.renderToStaticMarkup,
+      viewport: {
+        width: 600,
+        height: 300,
+      },
+    });
+    expect(image).toMatchImageSnapshot();
+  });
+
+  test('colors have no visual regressions', async () => {
+    const component = (
+      <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+        {[
+          'mistyrose',
+          'papayawhip',
+          'cornsilk',
+          'beige',
+          'aliceblue',
+          'lavender',
+        ].map((color, i) => (
+          <div style={{ width: 48, margin: 6 }} key={i}>
+            <FileIcon color={color} type="code" extension=" " />
+          </div>
+        ))}
+      </div>
+    );
+
+    const image = await generateImage(component, {
+      renderer: ReactDOMServer.renderToStaticMarkup,
+      viewport: {
+        width: 600,
+        height: 300,
+      },
+    });
+    expect(image).toMatchImageSnapshot();
+  });
+
+  test('default styles have no visual regressions', async () => {
+    const component = (
+      <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+        {['psd', 'ai', 'indd', 'doc', 'xls', 'ppt'].map((kind, i) => (
+          <div style={{ width: 48, margin: 6 }} key={i}>
+            <FileIcon {...defaultStyles[kind]} />
+          </div>
+        ))}
+      </div>
+    );
+
+    const image = await generateImage(component, {
+      renderer: ReactDOMServer.renderToStaticMarkup,
+      viewport: {
+        width: 600,
+        height: 300,
+      },
     });
     expect(image).toMatchImageSnapshot();
   });
