@@ -9,8 +9,8 @@
   "main": "dist/react-file-icon.js",
   "module": "dist/react-file-icon.esm.js",
   "scripts": {
-    "build": "microbundle --jsx React.createElement --no-sourcemap",
-    "watch": "microbundle --jsx React.createElement --watch",
+    "build": "microbundle --jsx React.createElement --no-sourcemap --no-compress",
+    "watch": "microbundle --jsx React.createElement --no-compress --watch",
     "test": "jest --config config/jest.config.js"
   },
   "keywords": [
