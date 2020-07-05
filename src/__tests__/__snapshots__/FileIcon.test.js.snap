@@ -17,6 +17,7 @@ exports[`<FileIcon /> border radius variations render correctly 1`] = `
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
@@ -92,6 +93,7 @@ exports[`<FileIcon /> border radius variations render correctly 1`] = `
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
@@ -167,6 +169,7 @@ exports[`<FileIcon /> border radius variations render correctly 1`] = `
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
@@ -242,6 +245,7 @@ exports[`<FileIcon /> border radius variations render correctly 1`] = `
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
@@ -317,6 +321,7 @@ exports[`<FileIcon /> border radius variations render correctly 1`] = `
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
@@ -392,6 +397,7 @@ exports[`<FileIcon /> border radius variations render correctly 1`] = `
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
@@ -479,6 +485,7 @@ exports[`<FileIcon /> color variations render correctly 1`] = `
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
@@ -600,6 +607,7 @@ exports[`<FileIcon /> color variations render correctly 1`] = `
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
@@ -721,6 +729,7 @@ exports[`<FileIcon /> color variations render correctly 1`] = `
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
@@ -842,6 +851,7 @@ exports[`<FileIcon /> color variations render correctly 1`] = `
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
@@ -963,6 +973,7 @@ exports[`<FileIcon /> color variations render correctly 1`] = `
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
@@ -1084,6 +1095,7 @@ exports[`<FileIcon /> color variations render correctly 1`] = `
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
@@ -1217,6 +1229,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
@@ -1302,6 +1315,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
@@ -1387,6 +1401,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
@@ -1472,6 +1487,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
@@ -1557,6 +1573,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
@@ -1642,6 +1659,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
@@ -1727,6 +1745,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
@@ -1812,6 +1831,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
@@ -1897,6 +1917,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
@@ -1982,6 +2003,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
@@ -2067,6 +2089,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
@@ -2152,6 +2175,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
@@ -2237,6 +2261,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
@@ -2322,6 +2347,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
@@ -2407,6 +2433,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
@@ -2503,6 +2530,7 @@ exports[`<FileIcon /> label colors render correctly 1`] = `
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
@@ -2614,6 +2642,7 @@ exports[`<FileIcon /> label colors render correctly 1`] = `
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
@@ -2725,6 +2754,7 @@ exports[`<FileIcon /> label colors render correctly 1`] = `
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
@@ -2836,6 +2866,7 @@ exports[`<FileIcon /> label colors render correctly 1`] = `
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
@@ -2947,6 +2978,7 @@ exports[`<FileIcon /> label colors render correctly 1`] = `
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
@@ -3058,6 +3090,7 @@ exports[`<FileIcon /> label colors render correctly 1`] = `
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
@@ -3181,6 +3214,7 @@ exports[`<FileIcon /> renders uppercase label when labelUppercase is true 1`] = 
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
@@ -3304,6 +3338,7 @@ exports[`<FileIcon /> standard arrangements render correctly 1`] = `
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
@@ -3373,6 +3408,7 @@ exports[`<FileIcon /> standard arrangements render correctly 1`] = `
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
@@ -3448,6 +3484,7 @@ exports[`<FileIcon /> standard arrangements render correctly 1`] = `
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
@@ -3533,6 +3570,7 @@ exports[`<FileIcon /> standard arrangements render correctly 1`] = `
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
@@ -3644,6 +3682,7 @@ exports[`<FileIcon /> standard arrangements render correctly 1`] = `
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
@@ -3777,6 +3816,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
@@ -3888,6 +3928,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
@@ -3999,6 +4040,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
@@ -4110,6 +4152,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
@@ -4231,6 +4274,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
@@ -4352,6 +4396,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
@@ -4473,6 +4518,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
@@ -4552,6 +4598,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
@@ -4631,6 +4678,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
     }
     viewBox="0 0 40 48"
     width="100%"
+    xmlns="http://www.w3.org/2000/svg"
   >
     <defs>
       <clipPath
