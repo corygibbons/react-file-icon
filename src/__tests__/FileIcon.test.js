@@ -234,7 +234,7 @@ describe('<FileIcon />', () => {
       renderer: ReactDOMServer.renderToStaticMarkup,
       viewport: {
         width: 600,
-        height: 300,
+        height: 160,
       },
     });
     expect(image).toMatchImageSnapshot();
@@ -255,7 +255,7 @@ describe('<FileIcon />', () => {
       renderer: ReactDOMServer.renderToStaticMarkup,
       viewport: {
         width: 600,
-        height: 300,
+        height: 160,
       },
     });
     expect(image).toMatchImageSnapshot();
@@ -283,7 +283,7 @@ describe('<FileIcon />', () => {
       renderer: ReactDOMServer.renderToStaticMarkup,
       viewport: {
         width: 600,
-        height: 300,
+        height: 160,
       },
     });
     expect(image).toMatchImageSnapshot();
@@ -304,7 +304,7 @@ describe('<FileIcon />', () => {
       renderer: ReactDOMServer.renderToStaticMarkup,
       viewport: {
         width: 600,
-        height: 300,
+        height: 160,
       },
     });
     expect(image).toMatchImageSnapshot();
