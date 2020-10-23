@@ -24,21 +24,23 @@
   "dependencies": {
     "lodash.uniqueid": "^4.0.1",
     "prop-types": "^15.7.2",
-    "tinycolor2": "^1.4.1"
+    "tinycolor2": "^1.4.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.10.4",
-    "@babel/preset-env": "^7.10.4",
-    "@babel/preset-react": "^7.10.4",
-    "babel-jest": "^26.1.0",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.1",
+    "babel-jest": "^26.6.0",
     "component-image": "^2.1.1",
-    "jest": "^26.1.0",
-    "jest-image-snapshot": "^4.0.2",
-    "microbundle": "^0.12.2",
-    "react-test-renderer": "^16.13.1"
+    "jest": "^26.6.0",
+    "jest-image-snapshot": "^4.2.0",
+    "microbundle": "^0.12.4",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-test-renderer": "^17.0.1"
   },
   "peerDependencies": {
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react": "^17.0.0 || ^16.2.0",
+    "react-dom": "^17.0.0 || ^16.2.0"
   }
 }
