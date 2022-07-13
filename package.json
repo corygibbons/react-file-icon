@@ -1,6 +1,6 @@
 {
   "name": "react-file-icon",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "React component to render svg file icons",
   "repository": {
     "url": "https://github.com/corygibbons/react-file-icon"
