@@ -171,7 +171,7 @@ export const FileIcon = ({
           <rect
             width={ICON.WIDTH}
             height={ICON.HEIGHT}
-            fill={foldColor || colord(color).darken(0.1).toString()}
+            fill={foldColor || colord(color).darken(0.1).toHex()}
             rx={radius}
             ry={radius}
             clipPath="url(#foldCrop)"
@@ -183,7 +183,7 @@ export const FileIcon = ({
         <React.Fragment>
           <g id="label">
             <rect
-              fill={labelColor || colord(color).darken(0.3).toString()}
+              fill={labelColor || colord(color).darken(0.3).toHex()}
               x={ICON.X_OFFSET}
               y={ICON.HEIGHT - LABEL_HEIGHT}
               width={ICON.WIDTH}
@@ -216,7 +216,7 @@ export const FileIcon = ({
       {type && (
         <g
           transform={`translate(-4 ${!extension ? 6 : 0})`}
-          fill={glyphColor || colord(color).darken(0.15).toString()}
+          fill={glyphColor || colord(color).darken(0.15).toHex()}
         >
           {glyphs[type]}
         </g>
