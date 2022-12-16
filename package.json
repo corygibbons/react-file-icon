@@ -22,9 +22,9 @@
   ],
   "license": "MIT",
   "dependencies": {
+    "colord": "^2.9.3",
     "lodash.uniqueid": "^4.0.1",
-    "prop-types": "^15.7.2",
-    "tinycolor2": "^1.4.2"
+    "prop-types": "^15.7.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.3",

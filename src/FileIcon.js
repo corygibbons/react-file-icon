@@ -1,9 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import tinycolor from 'tinycolor2';
+import { colord, extend as extendColord } from 'colord';
+import namesPlugin from 'colord/plugins/names';
 import uniqueId from 'lodash.uniqueid';
 
 import glyphs from './glyphs';
+
+extendColord([namesPlugin]);
 
 const propTypes = {
   /** Color of icon background */
@@ -168,7 +171,7 @@ export const FileIcon = ({
           <rect
             width={ICON.WIDTH}
             height={ICON.HEIGHT}
-            fill={foldColor || tinycolor(color).darken(10).toString()}
+            fill={foldColor || colord(color).darken(0.1).toHex()}
             rx={radius}
             ry={radius}
             clipPath="url(#foldCrop)"
@@ -180,7 +183,7 @@ export const FileIcon = ({
         <React.Fragment>
           <g id="label">
             <rect
-              fill={labelColor || tinycolor(color).darken(30).toString()}
+              fill={labelColor || colord(color).darken(0.3).toHex()}
               x={ICON.X_OFFSET}
               y={ICON.HEIGHT - LABEL_HEIGHT}
               width={ICON.WIDTH}
@@ -213,7 +216,7 @@ export const FileIcon = ({
       {type && (
         <g
           transform={`translate(-4 ${!extension ? 6 : 0})`}
-          fill={glyphColor || tinycolor(color).darken(15).toString()}
+          fill={glyphColor || colord(color).darken(0.15).toHex()}
         >
           {glyphs[type]}
         </g>
