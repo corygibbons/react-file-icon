@@ -105,7 +105,7 @@ export const FileIcon = ({
           />
         </clipPath>
 
-        <clipPath id="foldCrop">
+        <clipPath id={`foldCrop${UNIQUE_ID}`}>
           <rect
             width={ICON.WIDTH}
             height={FOLD.HEIGHT}
@@ -175,14 +175,14 @@ export const FileIcon = ({
             fill={foldColor || colord(color).darken(0.1).toHex()}
             rx={radius}
             ry={radius}
-            clipPath="url(#foldCrop)"
+            clipPath={`url(#foldCrop${UNIQUE_ID})`}
           />
         </g>
       )}
 
       {extension && (
         <React.Fragment>
-          <g id="label">
+          <g id={`label${UNIQUE_ID}`}>
             <rect
               fill={labelColor || colord(color).darken(0.3).toHex()}
               x={ICON.X_OFFSET}
@@ -192,7 +192,10 @@ export const FileIcon = ({
               clipPath={`url(#pageRadius${UNIQUE_ID})`}
             />
           </g>
-          <g id="labelText" transform={`translate(${ICON.X_OFFSET} 34)`}>
+          <g
+            id={`labelText${UNIQUE_ID}`}
+            transform={`translate(${ICON.X_OFFSET} 34)`}
+          >
             <text
               x={ICON.WIDTH / 2}
               y="10"
