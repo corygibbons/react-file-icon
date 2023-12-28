@@ -16,6 +16,10 @@ export default {
   '7zip': {
     type: 'compressed',
   },
+  aab: {
+    type: 'android',
+    labelColor: '#3DDC84',
+  },
   aac: {
     type: 'audio',
   },
@@ -36,6 +40,18 @@ export default {
   },
   aiff: {
     type: 'audio',
+  },
+  apk: {
+    type: 'android',
+    labelColor: '#3DDC84',
+  },
+  apkm: {
+    type: 'android',
+    labelColor: '#3DDC84',
+  },
+  apks: {
+    type: 'android',
+    labelColor: '#3DDC84',
   },
   asf: {
     type: 'video',
@@ -350,6 +366,10 @@ export default {
   },
   wps: {
     type: 'document',
+  },
+  xapk: {
+    type: 'android',
+    labelColor: '#3DDC84',
   },
   xlr: {
     type: 'spreadsheet',
