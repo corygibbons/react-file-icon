@@ -25,7 +25,7 @@ import { FileIcon } from 'react-file-icon';
 | `labelTextColor`  | string | `white`      | Color of label text               |
 | `labelUppercase`  | bool   | `false`      | Displays the label in all caps    |
 | `radius`          | number | `4`          | Corner radius of the file icon    |
-| `type`            | enum   | `undefined`  | Type of glyph icon to display (One of: `3d`, `acrobat`, `audio`, `binary`, `code`, `compressed`, `document`, `drive`, `font`, `image`, `presentation`, `settings`, `spreadsheet`, `vector`, `video`) |
+| `type`            | enum   | `undefined`  | Type of glyph icon to display (One of: `3d`, `acrobat`, `android`, `audio`, `binary`, `code`, `compressed`, `document`, `drive`, `font`, `image`, `presentation`, `settings`, `spreadsheet`, `vector`, `video`) |
 <!-- prettier-ignore-end -->
 
 ## Default Styles

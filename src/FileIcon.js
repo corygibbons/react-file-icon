@@ -35,6 +35,7 @@ const propTypes = {
   type: PropTypes.oneOf([
     '3d',
     'acrobat',
+    'android',
     'audio',
     'binary',
     'code',
