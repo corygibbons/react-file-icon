@@ -302,6 +302,9 @@ export default {
   sitx: {
     type: 'compressed',
   },
+  skp: {
+    type: '3d',
+  },
   svg: {
     type: 'vector',
   },
