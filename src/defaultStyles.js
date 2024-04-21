@@ -153,6 +153,9 @@ export default {
   gz: {
     type: 'compressed',
   },
+  heic: {
+    type: 'image'
+  },
   htm: {
     type: 'code',
   },
