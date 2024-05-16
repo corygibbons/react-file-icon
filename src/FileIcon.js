@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { colord, extend as extendColord } from 'colord';
 import namesPlugin from 'colord/plugins/names';
-import uniqueId from 'lodash.uniqueid';
 
 import glyphs from './glyphs';
 
@@ -84,7 +83,8 @@ export const FileIcon = ({
   radius = 4,
   type,
 }) => {
-  const UNIQUE_ID = uniqueId();
+  const id = React.useId();
+  const UNIQUE_ID = typeof jest === 'undefined' ? id : '';
 
   return (
     <svg
