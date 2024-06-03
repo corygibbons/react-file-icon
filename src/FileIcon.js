@@ -69,6 +69,11 @@ const FOLD = {
 
 const LABEL_HEIGHT = 14;
 
+const useId = React.useId || (() => {
+  let i = 0;
+  return () => i++;
+})();
+
 export const FileIcon = ({
   color = 'whitesmoke',
   extension,
@@ -83,7 +88,7 @@ export const FileIcon = ({
   radius = 4,
   type,
 }) => {
-  const id = React.useId();
+  const id = useId();
   const UNIQUE_ID = typeof jest === 'undefined' ? id : '';
 
   return (
