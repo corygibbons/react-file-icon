@@ -21,7 +21,7 @@ exports[`<FileIcon /> border radius variations render correctly 1`] = `
   >
     <defs>
       <clipPath
-        id="pageRadius6"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -42,7 +42,7 @@ exports[`<FileIcon /> border radius variations render correctly 1`] = `
         />
       </clipPath>
       <linearGradient
-        id="pageGradient6"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -60,7 +60,7 @@ exports[`<FileIcon /> border radius variations render correctly 1`] = `
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius6)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <path
@@ -69,7 +69,7 @@ exports[`<FileIcon /> border radius variations render correctly 1`] = `
       />
       <path
         d="M0 0 h 28 L 40 12 v 36 H 0 Z"
-        fill="url(#pageGradient6)"
+        fill="url(#pageGradient)"
       />
     </g>
     <g
@@ -97,7 +97,7 @@ exports[`<FileIcon /> border radius variations render correctly 1`] = `
   >
     <defs>
       <clipPath
-        id="pageRadius7"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -118,7 +118,7 @@ exports[`<FileIcon /> border radius variations render correctly 1`] = `
         />
       </clipPath>
       <linearGradient
-        id="pageGradient7"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -136,7 +136,7 @@ exports[`<FileIcon /> border radius variations render correctly 1`] = `
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius7)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <path
@@ -145,7 +145,7 @@ exports[`<FileIcon /> border radius variations render correctly 1`] = `
       />
       <path
         d="M0 0 h 28 L 40 12 v 36 H 0 Z"
-        fill="url(#pageGradient7)"
+        fill="url(#pageGradient)"
       />
     </g>
     <g
@@ -173,7 +173,7 @@ exports[`<FileIcon /> border radius variations render correctly 1`] = `
   >
     <defs>
       <clipPath
-        id="pageRadius8"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -194,7 +194,7 @@ exports[`<FileIcon /> border radius variations render correctly 1`] = `
         />
       </clipPath>
       <linearGradient
-        id="pageGradient8"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -212,7 +212,7 @@ exports[`<FileIcon /> border radius variations render correctly 1`] = `
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius8)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <path
@@ -221,7 +221,7 @@ exports[`<FileIcon /> border radius variations render correctly 1`] = `
       />
       <path
         d="M0 0 h 28 L 40 12 v 36 H 0 Z"
-        fill="url(#pageGradient8)"
+        fill="url(#pageGradient)"
       />
     </g>
     <g
@@ -249,7 +249,7 @@ exports[`<FileIcon /> border radius variations render correctly 1`] = `
   >
     <defs>
       <clipPath
-        id="pageRadius9"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -270,7 +270,7 @@ exports[`<FileIcon /> border radius variations render correctly 1`] = `
         />
       </clipPath>
       <linearGradient
-        id="pageGradient9"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -288,7 +288,7 @@ exports[`<FileIcon /> border radius variations render correctly 1`] = `
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius9)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <path
@@ -297,7 +297,7 @@ exports[`<FileIcon /> border radius variations render correctly 1`] = `
       />
       <path
         d="M0 0 h 28 L 40 12 v 36 H 0 Z"
-        fill="url(#pageGradient9)"
+        fill="url(#pageGradient)"
       />
     </g>
     <g
@@ -325,7 +325,7 @@ exports[`<FileIcon /> border radius variations render correctly 1`] = `
   >
     <defs>
       <clipPath
-        id="pageRadius10"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -346,7 +346,7 @@ exports[`<FileIcon /> border radius variations render correctly 1`] = `
         />
       </clipPath>
       <linearGradient
-        id="pageGradient10"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -364,7 +364,7 @@ exports[`<FileIcon /> border radius variations render correctly 1`] = `
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius10)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <path
@@ -373,7 +373,7 @@ exports[`<FileIcon /> border radius variations render correctly 1`] = `
       />
       <path
         d="M0 0 h 28 L 40 12 v 36 H 0 Z"
-        fill="url(#pageGradient10)"
+        fill="url(#pageGradient)"
       />
     </g>
     <g
@@ -401,7 +401,7 @@ exports[`<FileIcon /> border radius variations render correctly 1`] = `
   >
     <defs>
       <clipPath
-        id="pageRadius11"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -422,7 +422,7 @@ exports[`<FileIcon /> border radius variations render correctly 1`] = `
         />
       </clipPath>
       <linearGradient
-        id="pageGradient11"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -440,7 +440,7 @@ exports[`<FileIcon /> border radius variations render correctly 1`] = `
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius11)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <path
@@ -449,7 +449,7 @@ exports[`<FileIcon /> border radius variations render correctly 1`] = `
       />
       <path
         d="M0 0 h 28 L 40 12 v 36 H 0 Z"
-        fill="url(#pageGradient11)"
+        fill="url(#pageGradient)"
       />
     </g>
     <g
@@ -489,7 +489,7 @@ exports[`<FileIcon /> color variations render correctly 1`] = `
   >
     <defs>
       <clipPath
-        id="pageRadius12"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -510,7 +510,7 @@ exports[`<FileIcon /> color variations render correctly 1`] = `
         />
       </clipPath>
       <linearGradient
-        id="pageGradient12"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -528,7 +528,7 @@ exports[`<FileIcon /> color variations render correctly 1`] = `
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius12)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <path
@@ -537,7 +537,7 @@ exports[`<FileIcon /> color variations render correctly 1`] = `
       />
       <path
         d="M0 0 h 28 L 40 12 v 36 H 0 Z"
-        fill="url(#pageGradient12)"
+        fill="url(#pageGradient)"
       />
     </g>
     <g
@@ -556,7 +556,7 @@ exports[`<FileIcon /> color variations render correctly 1`] = `
       id="label"
     >
       <rect
-        clipPath="url(#pageRadius12)"
+        clipPath="url(#pageRadius)"
         fill="#ff5a48"
         height={14}
         width={40}
@@ -611,7 +611,7 @@ exports[`<FileIcon /> color variations render correctly 1`] = `
   >
     <defs>
       <clipPath
-        id="pageRadius13"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -632,7 +632,7 @@ exports[`<FileIcon /> color variations render correctly 1`] = `
         />
       </clipPath>
       <linearGradient
-        id="pageGradient13"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -650,7 +650,7 @@ exports[`<FileIcon /> color variations render correctly 1`] = `
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius13)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <path
@@ -659,7 +659,7 @@ exports[`<FileIcon /> color variations render correctly 1`] = `
       />
       <path
         d="M0 0 h 28 L 40 12 v 36 H 0 Z"
-        fill="url(#pageGradient13)"
+        fill="url(#pageGradient)"
       />
     </g>
     <g
@@ -678,7 +678,7 @@ exports[`<FileIcon /> color variations render correctly 1`] = `
       id="label"
     >
       <rect
-        clipPath="url(#pageRadius13)"
+        clipPath="url(#pageRadius)"
         fill="#ffb53c"
         height={14}
         width={40}
@@ -733,7 +733,7 @@ exports[`<FileIcon /> color variations render correctly 1`] = `
   >
     <defs>
       <clipPath
-        id="pageRadius14"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -754,7 +754,7 @@ exports[`<FileIcon /> color variations render correctly 1`] = `
         />
       </clipPath>
       <linearGradient
-        id="pageGradient14"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -772,7 +772,7 @@ exports[`<FileIcon /> color variations render correctly 1`] = `
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius14)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <path
@@ -781,7 +781,7 @@ exports[`<FileIcon /> color variations render correctly 1`] = `
       />
       <path
         d="M0 0 h 28 L 40 12 v 36 H 0 Z"
-        fill="url(#pageGradient14)"
+        fill="url(#pageGradient)"
       />
     </g>
     <g
@@ -800,7 +800,7 @@ exports[`<FileIcon /> color variations render correctly 1`] = `
       id="label"
     >
       <rect
-        clipPath="url(#pageRadius14)"
+        clipPath="url(#pageRadius)"
         fill="#ffd943"
         height={14}
         width={40}
@@ -855,7 +855,7 @@ exports[`<FileIcon /> color variations render correctly 1`] = `
   >
     <defs>
       <clipPath
-        id="pageRadius15"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -876,7 +876,7 @@ exports[`<FileIcon /> color variations render correctly 1`] = `
         />
       </clipPath>
       <linearGradient
-        id="pageGradient15"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -894,7 +894,7 @@ exports[`<FileIcon /> color variations render correctly 1`] = `
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius15)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <path
@@ -903,7 +903,7 @@ exports[`<FileIcon /> color variations render correctly 1`] = `
       />
       <path
         d="M0 0 h 28 L 40 12 v 36 H 0 Z"
-        fill="url(#pageGradient15)"
+        fill="url(#pageGradient)"
       />
     </g>
     <g
@@ -922,7 +922,7 @@ exports[`<FileIcon /> color variations render correctly 1`] = `
       id="label"
     >
       <rect
-        clipPath="url(#pageRadius15)"
+        clipPath="url(#pageRadius)"
         fill="#d3d365"
         height={14}
         width={40}
@@ -977,7 +977,7 @@ exports[`<FileIcon /> color variations render correctly 1`] = `
   >
     <defs>
       <clipPath
-        id="pageRadius16"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -998,7 +998,7 @@ exports[`<FileIcon /> color variations render correctly 1`] = `
         />
       </clipPath>
       <linearGradient
-        id="pageGradient16"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -1016,7 +1016,7 @@ exports[`<FileIcon /> color variations render correctly 1`] = `
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius16)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <path
@@ -1025,7 +1025,7 @@ exports[`<FileIcon /> color variations render correctly 1`] = `
       />
       <path
         d="M0 0 h 28 L 40 12 v 36 H 0 Z"
-        fill="url(#pageGradient16)"
+        fill="url(#pageGradient)"
       />
     </g>
     <g
@@ -1044,7 +1044,7 @@ exports[`<FileIcon /> color variations render correctly 1`] = `
       id="label"
     >
       <rect
-        clipPath="url(#pageRadius16)"
+        clipPath="url(#pageRadius)"
         fill="#57b1ff"
         height={14}
         width={40}
@@ -1099,7 +1099,7 @@ exports[`<FileIcon /> color variations render correctly 1`] = `
   >
     <defs>
       <clipPath
-        id="pageRadius17"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -1120,7 +1120,7 @@ exports[`<FileIcon /> color variations render correctly 1`] = `
         />
       </clipPath>
       <linearGradient
-        id="pageGradient17"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -1138,7 +1138,7 @@ exports[`<FileIcon /> color variations render correctly 1`] = `
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius17)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <path
@@ -1147,7 +1147,7 @@ exports[`<FileIcon /> color variations render correctly 1`] = `
       />
       <path
         d="M0 0 h 28 L 40 12 v 36 H 0 Z"
-        fill="url(#pageGradient17)"
+        fill="url(#pageGradient)"
       />
     </g>
     <g
@@ -1166,7 +1166,7 @@ exports[`<FileIcon /> color variations render correctly 1`] = `
       id="label"
     >
       <rect
-        clipPath="url(#pageRadius17)"
+        clipPath="url(#pageRadius)"
         fill="#6666e1"
         height={14}
         width={40}
@@ -1233,7 +1233,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
   >
     <defs>
       <clipPath
-        id="pageRadius24"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -1254,7 +1254,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
         />
       </clipPath>
       <linearGradient
-        id="pageGradient24"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -1272,7 +1272,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius24)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <path
@@ -1281,7 +1281,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
       />
       <path
         d="M0 0 h 28 L 40 12 v 36 H 0 Z"
-        fill="url(#pageGradient24)"
+        fill="url(#pageGradient)"
       />
     </g>
     <g
@@ -1319,7 +1319,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
   >
     <defs>
       <clipPath
-        id="pageRadius25"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -1340,7 +1340,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
         />
       </clipPath>
       <linearGradient
-        id="pageGradient25"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -1358,7 +1358,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius25)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <path
@@ -1367,7 +1367,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
       />
       <path
         d="M0 0 h 28 L 40 12 v 36 H 0 Z"
-        fill="url(#pageGradient25)"
+        fill="url(#pageGradient)"
       />
     </g>
     <g
@@ -1405,7 +1405,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
   >
     <defs>
       <clipPath
-        id="pageRadius26"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -1426,7 +1426,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
         />
       </clipPath>
       <linearGradient
-        id="pageGradient26"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -1444,7 +1444,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius26)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <path
@@ -1453,7 +1453,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
       />
       <path
         d="M0 0 h 28 L 40 12 v 36 H 0 Z"
-        fill="url(#pageGradient26)"
+        fill="url(#pageGradient)"
       />
     </g>
     <g
@@ -1491,7 +1491,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
   >
     <defs>
       <clipPath
-        id="pageRadius27"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -1512,7 +1512,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
         />
       </clipPath>
       <linearGradient
-        id="pageGradient27"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -1530,7 +1530,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius27)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <path
@@ -1539,7 +1539,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
       />
       <path
         d="M0 0 h 28 L 40 12 v 36 H 0 Z"
-        fill="url(#pageGradient27)"
+        fill="url(#pageGradient)"
       />
     </g>
     <g
@@ -1577,7 +1577,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
   >
     <defs>
       <clipPath
-        id="pageRadius28"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -1598,7 +1598,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
         />
       </clipPath>
       <linearGradient
-        id="pageGradient28"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -1616,7 +1616,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius28)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <path
@@ -1625,7 +1625,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
       />
       <path
         d="M0 0 h 28 L 40 12 v 36 H 0 Z"
-        fill="url(#pageGradient28)"
+        fill="url(#pageGradient)"
       />
     </g>
     <g
@@ -1663,7 +1663,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
   >
     <defs>
       <clipPath
-        id="pageRadius29"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -1684,7 +1684,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
         />
       </clipPath>
       <linearGradient
-        id="pageGradient29"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -1702,7 +1702,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius29)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <path
@@ -1711,7 +1711,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
       />
       <path
         d="M0 0 h 28 L 40 12 v 36 H 0 Z"
-        fill="url(#pageGradient29)"
+        fill="url(#pageGradient)"
       />
     </g>
     <g
@@ -1749,7 +1749,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
   >
     <defs>
       <clipPath
-        id="pageRadius30"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -1770,7 +1770,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
         />
       </clipPath>
       <linearGradient
-        id="pageGradient30"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -1788,7 +1788,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius30)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <path
@@ -1797,7 +1797,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
       />
       <path
         d="M0 0 h 28 L 40 12 v 36 H 0 Z"
-        fill="url(#pageGradient30)"
+        fill="url(#pageGradient)"
       />
     </g>
     <g
@@ -1835,7 +1835,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
   >
     <defs>
       <clipPath
-        id="pageRadius31"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -1856,7 +1856,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
         />
       </clipPath>
       <linearGradient
-        id="pageGradient31"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -1874,7 +1874,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius31)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <path
@@ -1883,7 +1883,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
       />
       <path
         d="M0 0 h 28 L 40 12 v 36 H 0 Z"
-        fill="url(#pageGradient31)"
+        fill="url(#pageGradient)"
       />
     </g>
     <g
@@ -1921,7 +1921,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
   >
     <defs>
       <clipPath
-        id="pageRadius32"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -1942,7 +1942,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
         />
       </clipPath>
       <linearGradient
-        id="pageGradient32"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -1960,7 +1960,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius32)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <path
@@ -1969,7 +1969,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
       />
       <path
         d="M0 0 h 28 L 40 12 v 36 H 0 Z"
-        fill="url(#pageGradient32)"
+        fill="url(#pageGradient)"
       />
     </g>
     <g
@@ -2007,7 +2007,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
   >
     <defs>
       <clipPath
-        id="pageRadius33"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -2028,7 +2028,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
         />
       </clipPath>
       <linearGradient
-        id="pageGradient33"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -2046,7 +2046,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius33)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <path
@@ -2055,7 +2055,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
       />
       <path
         d="M0 0 h 28 L 40 12 v 36 H 0 Z"
-        fill="url(#pageGradient33)"
+        fill="url(#pageGradient)"
       />
     </g>
     <g
@@ -2093,7 +2093,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
   >
     <defs>
       <clipPath
-        id="pageRadius34"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -2114,7 +2114,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
         />
       </clipPath>
       <linearGradient
-        id="pageGradient34"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -2132,7 +2132,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius34)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <path
@@ -2141,7 +2141,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
       />
       <path
         d="M0 0 h 28 L 40 12 v 36 H 0 Z"
-        fill="url(#pageGradient34)"
+        fill="url(#pageGradient)"
       />
     </g>
     <g
@@ -2179,7 +2179,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
   >
     <defs>
       <clipPath
-        id="pageRadius35"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -2200,7 +2200,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
         />
       </clipPath>
       <linearGradient
-        id="pageGradient35"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -2218,7 +2218,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius35)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <path
@@ -2227,7 +2227,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
       />
       <path
         d="M0 0 h 28 L 40 12 v 36 H 0 Z"
-        fill="url(#pageGradient35)"
+        fill="url(#pageGradient)"
       />
     </g>
     <g
@@ -2265,7 +2265,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
   >
     <defs>
       <clipPath
-        id="pageRadius36"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -2286,7 +2286,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
         />
       </clipPath>
       <linearGradient
-        id="pageGradient36"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -2304,7 +2304,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius36)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <path
@@ -2313,7 +2313,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
       />
       <path
         d="M0 0 h 28 L 40 12 v 36 H 0 Z"
-        fill="url(#pageGradient36)"
+        fill="url(#pageGradient)"
       />
     </g>
     <g
@@ -2351,7 +2351,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
   >
     <defs>
       <clipPath
-        id="pageRadius37"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -2372,7 +2372,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
         />
       </clipPath>
       <linearGradient
-        id="pageGradient37"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -2390,7 +2390,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius37)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <path
@@ -2399,7 +2399,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
       />
       <path
         d="M0 0 h 28 L 40 12 v 36 H 0 Z"
-        fill="url(#pageGradient37)"
+        fill="url(#pageGradient)"
       />
     </g>
     <g
@@ -2437,7 +2437,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
   >
     <defs>
       <clipPath
-        id="pageRadius38"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -2458,7 +2458,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
         />
       </clipPath>
       <linearGradient
-        id="pageGradient38"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -2476,7 +2476,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius38)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <path
@@ -2485,7 +2485,7 @@ exports[`<FileIcon /> file type glyphs render correctly 1`] = `
       />
       <path
         d="M0 0 h 28 L 40 12 v 36 H 0 Z"
-        fill="url(#pageGradient38)"
+        fill="url(#pageGradient)"
       />
     </g>
     <g
@@ -2534,7 +2534,7 @@ exports[`<FileIcon /> label colors render correctly 1`] = `
   >
     <defs>
       <clipPath
-        id="pageRadius18"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -2555,7 +2555,7 @@ exports[`<FileIcon /> label colors render correctly 1`] = `
         />
       </clipPath>
       <linearGradient
-        id="pageGradient18"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -2573,7 +2573,7 @@ exports[`<FileIcon /> label colors render correctly 1`] = `
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius18)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <path
@@ -2582,7 +2582,7 @@ exports[`<FileIcon /> label colors render correctly 1`] = `
       />
       <path
         d="M0 0 h 28 L 40 12 v 36 H 0 Z"
-        fill="url(#pageGradient18)"
+        fill="url(#pageGradient)"
       />
     </g>
     <g
@@ -2601,7 +2601,7 @@ exports[`<FileIcon /> label colors render correctly 1`] = `
       id="label"
     >
       <rect
-        clipPath="url(#pageRadius18)"
+        clipPath="url(#pageRadius)"
         fill="tomato"
         height={14}
         width={40}
@@ -2646,7 +2646,7 @@ exports[`<FileIcon /> label colors render correctly 1`] = `
   >
     <defs>
       <clipPath
-        id="pageRadius19"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -2667,7 +2667,7 @@ exports[`<FileIcon /> label colors render correctly 1`] = `
         />
       </clipPath>
       <linearGradient
-        id="pageGradient19"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -2685,7 +2685,7 @@ exports[`<FileIcon /> label colors render correctly 1`] = `
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius19)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <path
@@ -2694,7 +2694,7 @@ exports[`<FileIcon /> label colors render correctly 1`] = `
       />
       <path
         d="M0 0 h 28 L 40 12 v 36 H 0 Z"
-        fill="url(#pageGradient19)"
+        fill="url(#pageGradient)"
       />
     </g>
     <g
@@ -2713,7 +2713,7 @@ exports[`<FileIcon /> label colors render correctly 1`] = `
       id="label"
     >
       <rect
-        clipPath="url(#pageRadius19)"
+        clipPath="url(#pageRadius)"
         fill="orange"
         height={14}
         width={40}
@@ -2758,7 +2758,7 @@ exports[`<FileIcon /> label colors render correctly 1`] = `
   >
     <defs>
       <clipPath
-        id="pageRadius20"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -2779,7 +2779,7 @@ exports[`<FileIcon /> label colors render correctly 1`] = `
         />
       </clipPath>
       <linearGradient
-        id="pageGradient20"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -2797,7 +2797,7 @@ exports[`<FileIcon /> label colors render correctly 1`] = `
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius20)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <path
@@ -2806,7 +2806,7 @@ exports[`<FileIcon /> label colors render correctly 1`] = `
       />
       <path
         d="M0 0 h 28 L 40 12 v 36 H 0 Z"
-        fill="url(#pageGradient20)"
+        fill="url(#pageGradient)"
       />
     </g>
     <g
@@ -2825,7 +2825,7 @@ exports[`<FileIcon /> label colors render correctly 1`] = `
       id="label"
     >
       <rect
-        clipPath="url(#pageRadius20)"
+        clipPath="url(#pageRadius)"
         fill="gold"
         height={14}
         width={40}
@@ -2870,7 +2870,7 @@ exports[`<FileIcon /> label colors render correctly 1`] = `
   >
     <defs>
       <clipPath
-        id="pageRadius21"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -2891,7 +2891,7 @@ exports[`<FileIcon /> label colors render correctly 1`] = `
         />
       </clipPath>
       <linearGradient
-        id="pageGradient21"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -2909,7 +2909,7 @@ exports[`<FileIcon /> label colors render correctly 1`] = `
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius21)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <path
@@ -2918,7 +2918,7 @@ exports[`<FileIcon /> label colors render correctly 1`] = `
       />
       <path
         d="M0 0 h 28 L 40 12 v 36 H 0 Z"
-        fill="url(#pageGradient21)"
+        fill="url(#pageGradient)"
       />
     </g>
     <g
@@ -2937,7 +2937,7 @@ exports[`<FileIcon /> label colors render correctly 1`] = `
       id="label"
     >
       <rect
-        clipPath="url(#pageRadius21)"
+        clipPath="url(#pageRadius)"
         fill="lightgreen"
         height={14}
         width={40}
@@ -2982,7 +2982,7 @@ exports[`<FileIcon /> label colors render correctly 1`] = `
   >
     <defs>
       <clipPath
-        id="pageRadius22"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -3003,7 +3003,7 @@ exports[`<FileIcon /> label colors render correctly 1`] = `
         />
       </clipPath>
       <linearGradient
-        id="pageGradient22"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -3021,7 +3021,7 @@ exports[`<FileIcon /> label colors render correctly 1`] = `
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius22)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <path
@@ -3030,7 +3030,7 @@ exports[`<FileIcon /> label colors render correctly 1`] = `
       />
       <path
         d="M0 0 h 28 L 40 12 v 36 H 0 Z"
-        fill="url(#pageGradient22)"
+        fill="url(#pageGradient)"
       />
     </g>
     <g
@@ -3049,7 +3049,7 @@ exports[`<FileIcon /> label colors render correctly 1`] = `
       id="label"
     >
       <rect
-        clipPath="url(#pageRadius22)"
+        clipPath="url(#pageRadius)"
         fill="deepskyblue"
         height={14}
         width={40}
@@ -3094,7 +3094,7 @@ exports[`<FileIcon /> label colors render correctly 1`] = `
   >
     <defs>
       <clipPath
-        id="pageRadius23"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -3115,7 +3115,7 @@ exports[`<FileIcon /> label colors render correctly 1`] = `
         />
       </clipPath>
       <linearGradient
-        id="pageGradient23"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -3133,7 +3133,7 @@ exports[`<FileIcon /> label colors render correctly 1`] = `
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius23)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <path
@@ -3142,7 +3142,7 @@ exports[`<FileIcon /> label colors render correctly 1`] = `
       />
       <path
         d="M0 0 h 28 L 40 12 v 36 H 0 Z"
-        fill="url(#pageGradient23)"
+        fill="url(#pageGradient)"
       />
     </g>
     <g
@@ -3161,7 +3161,7 @@ exports[`<FileIcon /> label colors render correctly 1`] = `
       id="label"
     >
       <rect
-        clipPath="url(#pageRadius23)"
+        clipPath="url(#pageRadius)"
         fill="orchid"
         height={14}
         width={40}
@@ -3218,7 +3218,7 @@ exports[`<FileIcon /> renders uppercase label when labelUppercase is true 1`] = 
   >
     <defs>
       <clipPath
-        id="pageRadius48"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -3239,7 +3239,7 @@ exports[`<FileIcon /> renders uppercase label when labelUppercase is true 1`] = 
         />
       </clipPath>
       <linearGradient
-        id="pageGradient48"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -3257,7 +3257,7 @@ exports[`<FileIcon /> renders uppercase label when labelUppercase is true 1`] = 
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius48)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <path
@@ -3266,7 +3266,7 @@ exports[`<FileIcon /> renders uppercase label when labelUppercase is true 1`] = 
       />
       <path
         d="M0 0 h 28 L 40 12 v 36 H 0 Z"
-        fill="url(#pageGradient48)"
+        fill="url(#pageGradient)"
       />
     </g>
     <g
@@ -3285,7 +3285,7 @@ exports[`<FileIcon /> renders uppercase label when labelUppercase is true 1`] = 
       id="label"
     >
       <rect
-        clipPath="url(#pageRadius48)"
+        clipPath="url(#pageRadius)"
         fill="#a9a9a9"
         height={14}
         width={40}
@@ -3342,7 +3342,7 @@ exports[`<FileIcon /> standard arrangements render correctly 1`] = `
   >
     <defs>
       <clipPath
-        id="pageRadius1"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -3363,7 +3363,7 @@ exports[`<FileIcon /> standard arrangements render correctly 1`] = `
         />
       </clipPath>
       <linearGradient
-        id="pageGradient1"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -3381,7 +3381,7 @@ exports[`<FileIcon /> standard arrangements render correctly 1`] = `
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius1)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <rect
@@ -3392,7 +3392,7 @@ exports[`<FileIcon /> standard arrangements render correctly 1`] = `
         y="0"
       />
       <rect
-        fill="url(#pageGradient1)"
+        fill="url(#pageGradient)"
         height={48}
         width={40}
         x={0}
@@ -3412,7 +3412,7 @@ exports[`<FileIcon /> standard arrangements render correctly 1`] = `
   >
     <defs>
       <clipPath
-        id="pageRadius2"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -3433,7 +3433,7 @@ exports[`<FileIcon /> standard arrangements render correctly 1`] = `
         />
       </clipPath>
       <linearGradient
-        id="pageGradient2"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -3451,7 +3451,7 @@ exports[`<FileIcon /> standard arrangements render correctly 1`] = `
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius2)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <path
@@ -3460,7 +3460,7 @@ exports[`<FileIcon /> standard arrangements render correctly 1`] = `
       />
       <path
         d="M0 0 h 28 L 40 12 v 36 H 0 Z"
-        fill="url(#pageGradient2)"
+        fill="url(#pageGradient)"
       />
     </g>
     <g
@@ -3488,7 +3488,7 @@ exports[`<FileIcon /> standard arrangements render correctly 1`] = `
   >
     <defs>
       <clipPath
-        id="pageRadius3"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -3509,7 +3509,7 @@ exports[`<FileIcon /> standard arrangements render correctly 1`] = `
         />
       </clipPath>
       <linearGradient
-        id="pageGradient3"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -3527,7 +3527,7 @@ exports[`<FileIcon /> standard arrangements render correctly 1`] = `
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius3)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <path
@@ -3536,7 +3536,7 @@ exports[`<FileIcon /> standard arrangements render correctly 1`] = `
       />
       <path
         d="M0 0 h 28 L 40 12 v 36 H 0 Z"
-        fill="url(#pageGradient3)"
+        fill="url(#pageGradient)"
       />
     </g>
     <g
@@ -3574,7 +3574,7 @@ exports[`<FileIcon /> standard arrangements render correctly 1`] = `
   >
     <defs>
       <clipPath
-        id="pageRadius4"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -3595,7 +3595,7 @@ exports[`<FileIcon /> standard arrangements render correctly 1`] = `
         />
       </clipPath>
       <linearGradient
-        id="pageGradient4"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -3613,7 +3613,7 @@ exports[`<FileIcon /> standard arrangements render correctly 1`] = `
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius4)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <path
@@ -3622,7 +3622,7 @@ exports[`<FileIcon /> standard arrangements render correctly 1`] = `
       />
       <path
         d="M0 0 h 28 L 40 12 v 36 H 0 Z"
-        fill="url(#pageGradient4)"
+        fill="url(#pageGradient)"
       />
     </g>
     <g
@@ -3641,7 +3641,7 @@ exports[`<FileIcon /> standard arrangements render correctly 1`] = `
       id="label"
     >
       <rect
-        clipPath="url(#pageRadius4)"
+        clipPath="url(#pageRadius)"
         fill="#a9a9a9"
         height={14}
         width={40}
@@ -3686,7 +3686,7 @@ exports[`<FileIcon /> standard arrangements render correctly 1`] = `
   >
     <defs>
       <clipPath
-        id="pageRadius5"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -3707,7 +3707,7 @@ exports[`<FileIcon /> standard arrangements render correctly 1`] = `
         />
       </clipPath>
       <linearGradient
-        id="pageGradient5"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -3725,7 +3725,7 @@ exports[`<FileIcon /> standard arrangements render correctly 1`] = `
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius5)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <path
@@ -3734,7 +3734,7 @@ exports[`<FileIcon /> standard arrangements render correctly 1`] = `
       />
       <path
         d="M0 0 h 28 L 40 12 v 36 H 0 Z"
-        fill="url(#pageGradient5)"
+        fill="url(#pageGradient)"
       />
     </g>
     <g
@@ -3753,7 +3753,7 @@ exports[`<FileIcon /> standard arrangements render correctly 1`] = `
       id="label"
     >
       <rect
-        clipPath="url(#pageRadius5)"
+        clipPath="url(#pageRadius)"
         fill="#a9a9a9"
         height={14}
         width={40}
@@ -3820,7 +3820,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
   >
     <defs>
       <clipPath
-        id="pageRadius39"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -3841,7 +3841,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
         />
       </clipPath>
       <linearGradient
-        id="pageGradient39"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -3859,7 +3859,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius39)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <path
@@ -3868,7 +3868,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
       />
       <path
         d="M0 0 h 28 L 40 12 v 36 H 0 Z"
-        fill="url(#pageGradient39)"
+        fill="url(#pageGradient)"
       />
     </g>
     <g
@@ -3887,7 +3887,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
       id="label"
     >
       <rect
-        clipPath="url(#pageRadius39)"
+        clipPath="url(#pageRadius)"
         fill="#34364E"
         height={14}
         width={40}
@@ -3932,7 +3932,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
   >
     <defs>
       <clipPath
-        id="pageRadius40"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -3953,7 +3953,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
         />
       </clipPath>
       <linearGradient
-        id="pageGradient40"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -3971,7 +3971,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius40)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <path
@@ -3980,7 +3980,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
       />
       <path
         d="M0 0 h 28 L 40 12 v 36 H 0 Z"
-        fill="url(#pageGradient40)"
+        fill="url(#pageGradient)"
       />
     </g>
     <g
@@ -3999,7 +3999,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
       id="label"
     >
       <rect
-        clipPath="url(#pageRadius40)"
+        clipPath="url(#pageRadius)"
         fill="#423325"
         height={14}
         width={40}
@@ -4044,7 +4044,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
   >
     <defs>
       <clipPath
-        id="pageRadius41"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -4065,7 +4065,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
         />
       </clipPath>
       <linearGradient
-        id="pageGradient41"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -4083,7 +4083,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius41)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <path
@@ -4092,7 +4092,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
       />
       <path
         d="M0 0 h 28 L 40 12 v 36 H 0 Z"
-        fill="url(#pageGradient41)"
+        fill="url(#pageGradient)"
       />
     </g>
     <g
@@ -4111,7 +4111,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
       id="label"
     >
       <rect
-        clipPath="url(#pageRadius41)"
+        clipPath="url(#pageRadius)"
         fill="#4B2B36"
         height={14}
         width={40}
@@ -4156,7 +4156,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
   >
     <defs>
       <clipPath
-        id="pageRadius42"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -4177,7 +4177,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
         />
       </clipPath>
       <linearGradient
-        id="pageGradient42"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -4195,7 +4195,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius42)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <path
@@ -4204,7 +4204,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
       />
       <path
         d="M0 0 h 28 L 40 12 v 36 H 0 Z"
-        fill="url(#pageGradient42)"
+        fill="url(#pageGradient)"
       />
     </g>
     <g
@@ -4223,7 +4223,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
       id="label"
     >
       <rect
-        clipPath="url(#pageRadius42)"
+        clipPath="url(#pageRadius)"
         fill="#2C5898"
         height={14}
         width={40}
@@ -4278,7 +4278,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
   >
     <defs>
       <clipPath
-        id="pageRadius43"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -4299,7 +4299,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
         />
       </clipPath>
       <linearGradient
-        id="pageGradient43"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -4317,7 +4317,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius43)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <path
@@ -4326,7 +4326,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
       />
       <path
         d="M0 0 h 28 L 40 12 v 36 H 0 Z"
-        fill="url(#pageGradient43)"
+        fill="url(#pageGradient)"
       />
     </g>
     <g
@@ -4345,7 +4345,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
       id="label"
     >
       <rect
-        clipPath="url(#pageRadius43)"
+        clipPath="url(#pageRadius)"
         fill="#1A754C"
         height={14}
         width={40}
@@ -4400,7 +4400,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
   >
     <defs>
       <clipPath
-        id="pageRadius44"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -4421,7 +4421,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
         />
       </clipPath>
       <linearGradient
-        id="pageGradient44"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -4439,7 +4439,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius44)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <path
@@ -4448,7 +4448,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
       />
       <path
         d="M0 0 h 28 L 40 12 v 36 H 0 Z"
-        fill="url(#pageGradient44)"
+        fill="url(#pageGradient)"
       />
     </g>
     <g
@@ -4467,7 +4467,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
       id="label"
     >
       <rect
-        clipPath="url(#pageRadius44)"
+        clipPath="url(#pageRadius)"
         fill="#D14423"
         height={14}
         width={40}
@@ -4522,7 +4522,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
   >
     <defs>
       <clipPath
-        id="pageRadius45"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -4543,7 +4543,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
         />
       </clipPath>
       <linearGradient
-        id="pageGradient45"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -4561,7 +4561,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius45)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <rect
@@ -4572,7 +4572,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
         y="0"
       />
       <rect
-        fill="url(#pageGradient45)"
+        fill="url(#pageGradient)"
         height={48}
         width={40}
         x={0}
@@ -4602,7 +4602,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
   >
     <defs>
       <clipPath
-        id="pageRadius46"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -4623,7 +4623,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
         />
       </clipPath>
       <linearGradient
-        id="pageGradient46"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -4641,7 +4641,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius46)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <rect
@@ -4652,7 +4652,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
         y="0"
       />
       <rect
-        fill="url(#pageGradient46)"
+        fill="url(#pageGradient)"
         height={48}
         width={40}
         x={0}
@@ -4682,7 +4682,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
   >
     <defs>
       <clipPath
-        id="pageRadius47"
+        id="pageRadius"
       >
         <rect
           height={48}
@@ -4703,7 +4703,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
         />
       </clipPath>
       <linearGradient
-        id="pageGradient47"
+        id="pageGradient"
         x1="100%"
         y1="0%"
         y2="100%"
@@ -4721,7 +4721,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
       </linearGradient>
     </defs>
     <g
-      clipPath="url(#pageRadius47)"
+      clipPath="url(#pageRadius)"
       id="file"
     >
       <rect
@@ -4732,7 +4732,7 @@ exports[`<FileIcon /> unique file icons render correctly 1`] = `
         y="0"
       />
       <rect
-        fill="url(#pageGradient47)"
+        fill="url(#pageGradient)"
         height={48}
         width={40}
         x={0}

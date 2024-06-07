@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { colord, extend as extendColord } from 'colord';
 import namesPlugin from 'colord/plugins/names';
-import uniqueId from 'lodash.uniqueid';
 
 import glyphs from './glyphs';
 
@@ -70,6 +69,11 @@ const FOLD = {
 
 const LABEL_HEIGHT = 14;
 
+const useId = React.useId || (() => {
+  let i = 0;
+  return () => i++;
+})();
+
 export const FileIcon = ({
   color = 'whitesmoke',
   extension,
@@ -84,7 +88,8 @@ export const FileIcon = ({
   radius = 4,
   type,
 }) => {
-  const UNIQUE_ID = uniqueId();
+  const id = useId();
+  const UNIQUE_ID = typeof jest === 'undefined' ? id : '';
 
   return (
     <svg
