@@ -1,5 +1,6 @@
 import React from 'react';
-import renderer from 'react-test-renderer';
+import { render } from '@testing-library/react';
+import '@testing-library/jest-dom';
 import ReactDOMServer from 'react-dom/server';
 import { toMatchImageSnapshot } from 'jest-image-snapshot';
 import { generateImage } from 'component-image';
@@ -8,8 +9,8 @@ expect.extend({ toMatchImageSnapshot });
 
 import { FileIcon, defaultStyles } from '../../dist/react-file-icon';
 
-const render = content => {
-  return renderer.create(
+const renderWithStyle = content => {
+  return render(
     <div
       style={{
         WebkitFontSmoothing: 'antialiased',
@@ -18,12 +19,12 @@ const render = content => {
     >
       {content}
     </div>
-  );
+  ).container.firstChild;
 };
 
 describe('<FileIcon />', () => {
   test('standard arrangements render correctly', () => {
-    const tree = render(
+    const tree = renderWithStyle(
       <React.Fragment>
         <FileIcon fold={false} />
         <FileIcon />
@@ -37,7 +38,7 @@ describe('<FileIcon />', () => {
 
   test('border radius variations render correctly', () => {
     const radius = [0, 2, 4, 6, 8, 10];
-    const tree = render(
+    const tree = renderWithStyle(
       <React.Fragment>
         {radius.map((r, i) => (
           <FileIcon radius={r} key={i} />
@@ -56,7 +57,7 @@ describe('<FileIcon />', () => {
       'aliceblue',
       'lavender',
     ];
-    const tree = render(
+    const tree = renderWithStyle(
       <React.Fragment>
         {colors.map((color, i) => (
           <FileIcon color={color} type="image" extension="png" key={i} />
@@ -75,7 +76,7 @@ describe('<FileIcon />', () => {
       'deepskyblue',
       'orchid',
     ];
-    const tree = render(
+    const tree = renderWithStyle(
       <React.Fragment>
         {colors.map((color, i) => (
           <FileIcon labelColor={color} extension="mp3" key={i} />
@@ -103,7 +104,7 @@ describe('<FileIcon />', () => {
       'vector',
       'video',
     ];
-    const tree = render(
+    const tree = renderWithStyle(
       <React.Fragment>
         {types.map((type, i) => (
           <FileIcon type={type} key={i} />
@@ -114,7 +115,7 @@ describe('<FileIcon />', () => {
   });
 
   test('unique file icons render correctly', () => {
-    const tree = render(
+    const tree = renderWithStyle(
       <React.Fragment>
         <FileIcon
           color="#34364E"
@@ -197,7 +198,7 @@ describe('<FileIcon />', () => {
   });
 
   test('renders uppercase label when labelUppercase is true', () => {
-    const tree = render(<FileIcon extension="png" labelUppercase />);
+    const tree = renderWithStyle(<FileIcon extension="png" labelUppercase />);
     expect(tree).toMatchSnapshot();
   });
 
@@ -305,6 +306,9 @@ describe('<FileIcon />', () => {
       viewport: {
         width: 600,
         height: 160,
+      },
+      puppeteerOptions: {
+        args: ['--no-sandbox', '--disable-dev-shm-usage'],
       },
     });
     expect(image).toMatchImageSnapshot();
