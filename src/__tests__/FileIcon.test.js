@@ -308,7 +308,12 @@ describe('<FileIcon />', () => {
         height: 160,
       },
       puppeteerOptions: {
-        args: ['--no-sandbox', '--disable-dev-shm-usage'],
+        args: [
+          '--no-sandbox',
+          '--disable-setuid-sandbox',
+          '--disable-gpu',
+          '--disable-dev-shm-usage',
+        ],
       },
     });
     expect(image).toMatchImageSnapshot();
