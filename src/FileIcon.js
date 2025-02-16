@@ -26,8 +26,6 @@ const propTypes = {
   labelColor: PropTypes.string,
   /** Color of label text */
   labelTextColor: PropTypes.string,
-  /** Displays the label in all caps */
-  labelUppercase: PropTypes.bool,
   /** Corner radius of the file icon */
   radius: PropTypes.number,
   /** Type of glyph icon to display */
@@ -84,7 +82,6 @@ export const FileIcon = ({
   gradientOpacity = 0.25,
   labelColor,
   labelTextColor = 'white',
-  labelUppercase = false,
   radius = 4,
   type,
 }) => {
@@ -212,7 +209,6 @@ export const FileIcon = ({
                 fontWeight: 'bold',
                 textAlign: 'center',
                 pointerEvents: 'none',
-                textTransform: labelUppercase ? 'uppercase' : 'none',
                 userSelect: 'none',
               }}
             >
